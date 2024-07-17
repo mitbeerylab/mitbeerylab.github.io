@@ -1,0 +1,56 @@
+---
+import type { GetStaticPaths, Page } from "astro";
+import type { CollectionEntry } from "astro:content";
+
+import Pagination from "@/components/Paginator.astro";
+import PeoplePreview from "@/components/people/PeoplePreview.astro";
+import { getAllPeople } from "@/data/people";
+import PageLayout from "@/layouts/Base.astro";
+
+export const getStaticPaths = (async ({ paginate }) => {
+	const MAX_POSTS_PER_PAGE = 10;
+	const allPeople = await getAllPeople();
+	return paginate(allPeople, { pageSize: MAX_POSTS_PER_PAGE });
+}) satisfies GetStaticPaths;
+
+interface Props {
+	page: Page<CollectionEntry<"people">>;
+}
+
+const { page } = Astro.props;
+
+const meta = {
+	description: "Read my collection of people material",
+	title: "People",
+};
+
+const paginationProps = {
+	...(page.url.prev && {
+		prevUrl: {
+			text: `← Previous Page`,
+			url: page.url.prev,
+		},
+	}),
+	...(page.url.next && {
+		nextUrl: {
+			text: `Next Page →`,
+			url: page.url.next,
+		},
+	}),
+};
+---
+<PageLayout meta={meta}>
+	<h1 class="title mb-6">People</h1>
+	<div class="grid gap-y-16 sm:gap-x-8">
+		<section aria-label="Blog people list">
+			<ul class="mb-8 mt-6 space-y-8 text-start">
+				{page.data.map((p) => (
+					<li class="grid gap-2 sm:grid-cols-[auto_1fr] sm:[&_q]:col-start-2">
+						<PeoplePreview people={p} />
+					</li>
+				))}
+			</ul>
+			<Pagination {...paginationProps} />
+		</section>
+	</div>
+</PageLayout>

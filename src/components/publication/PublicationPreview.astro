@@ -1,0 +1,32 @@
+---
+import type { HTMLTag, Polymorphic } from "astro/types";
+import type { CollectionEntry } from "astro:content";
+
+import { getPublicationSortDate } from "@/data/publication";
+
+import FormattedDate from "../FormattedDate.astro";
+import { Icon } from "astro-icon/components";
+
+type Props<Tag extends HTMLTag> = {
+	publication: CollectionEntry<"publication">;
+	withDesc?: boolean;
+} & Polymorphic<{ as: Tag }>;
+
+const { as: Tag = "div", publication, withDesc = false } = Astro.props;
+const publicationDate = getPublicationSortDate(publication);
+---
+
+<FormattedDate class="min-w-[120px] text-gray-600 dark:text-gray-400" date={publicationDate} />
+<Tag>
+	{publication.data.draft && <span class="text-red-500">(Draft) </span>}
+	{publication.data.external ? (
+		<a class="cactus-link" href={publication.data.external}>
+			{publication.data.title}<Icon aria-hidden="true" class="inline mx-1 h-4 w-4" focusable="false" name="mdi:external-link" />
+		</a>
+	) : (
+		<a class="cactus-link" data-astro-prefetch href={`/publications/${publication.slug}/`}>
+			{publication.data.title}
+		</a>
+	)}
+</Tag>
+{withDesc && <q class="line-clamp-3 italic">{publication.data.description}</q>}

@@ -1,0 +1,32 @@
+---
+import type { HTMLTag, Polymorphic } from "astro/types";
+import type { CollectionEntry } from "astro:content";
+
+import { getTeachingSortDate } from "@/data/teaching";
+
+import FormattedDate from "../FormattedDate.astro";
+import { Icon } from "astro-icon/components";
+
+type Props<Tag extends HTMLTag> = {
+	teaching: CollectionEntry<"teaching">;
+	withDesc?: boolean;
+} & Polymorphic<{ as: Tag }>;
+
+const { as: Tag = "div", teaching, withDesc = false } = Astro.props;
+const teachingDate = getTeachingSortDate(teaching);
+---
+
+<FormattedDate class="min-w-[120px] text-gray-600 dark:text-gray-400" date={teachingDate} />
+<Tag>
+	{teaching.data.draft && <span class="text-red-500">(Draft) </span>}
+	{teaching.data.external ? (
+		<a class="cactus-link" href={teaching.data.external}>
+			{teaching.data.title}<Icon aria-hidden="true" class="inline mx-1 h-4 w-4" focusable="false" name="mdi:external-link" />
+		</a>
+	) : (
+		<a class="cactus-link" data-astro-prefetch href={`/teaching/${teaching.slug}/`}>
+			{teaching.data.title}
+		</a>
+	)}
+</Tag>
+{withDesc && <q class="line-clamp-3 italic">{teaching.data.description}</q>}
