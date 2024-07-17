@@ -1,0 +1,23 @@
+---
+import type { GetStaticPaths, InferGetStaticPropsType } from "astro";
+
+import { getAllTeaching } from "@/data/teaching";
+import TeachingLayout from "@/layouts/Teaching.astro";
+
+export const getStaticPaths = (async () => {
+	const teachingEntries = await getAllTeaching(true);
+	return teachingEntries.map((entry) => ({
+		params: { slug: entry.slug },
+		props: { entry },
+	}));
+}) satisfies GetStaticPaths;
+
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<TeachingLayout teaching={entry}>
+	<Content />
+</TeachingLayout>

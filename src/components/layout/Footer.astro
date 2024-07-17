@@ -1,0 +1,41 @@
+---
+import mitLogo from "@/assets/mit_logo_std_rgb_black.svg?raw";
+import { siteConfig } from "@/site-config";
+ 
+import SocialList from "../SocialList.astro";
+
+const year = new Date().getFullYear();
+---
+
+<footer
+	class="mt-auto flex w-full flex-col items-center justify-center gap-y-2 pb-4 pt-20 text-center align-top font-semibold text-gray-600 dark:text-gray-400 sm:flex-row sm:justify-between sm:text-xs"
+>
+	<div class="me-0 sm:me-4">
+		&copy; {siteConfig.author}
+		{year}
+	</div>
+	<SocialList />
+	<nav
+		aria-label="Affiliations"
+		class="flex gap-x-2 sm:gap-x-0 sm:divide-x sm:divide-gray-500"
+	>
+		<a href="https://www.mit.edu/">
+			<svg
+				enable-background="new 0 0 1680 1040"
+				style={{ height: "40px" }}
+				version="1.1"
+				viewBox="0 0 1680 1040"
+				x="0px"
+				xml:space="preserve"
+				xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink"
+				y="0px"
+			>
+				<path d="M880,880h160V400H880V880z M1120,320h400V160h-400V320z M880,160.00003h160v160H880V160.00003z M640,880h160V160H640V880z M400,720h160V160H400V720z M160,880h160V160H160V880z M1120,880h160V400h-160V880z" />
+			</svg>
+		</a>
+		<a href="https://www.csail.mit.edu/">
+			<svg style={{ height: "40px" }} viewBox="0 0 206.7 141.8" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><switch><foreignObject height="1" requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" width="1" x="0" y="0"/><g><path d="M73 28.8h16.4v5.1h-5V47H78V33.9h-5zm-4.2 0h-6.3v18.3h6.3zm-12.1 0h-8.9l-2.7 10.1-.5 3.3h-.3l-.6-3.2-2.9-10.2H32v18.3h5.4v-9.5l-.2-3.3h.4l3.6 12.9h6.2l3.6-13h.4l-.2 3.6v9.3h5.6V28.8zm89.3 85.1 16.7-4.7 3.8-16.9H146zm0-82.9v32.5h11.1v20.2h11.4l9.5-42.1z" style="fill:#898d8d"/><path d="M122.4 43.5c-8.9 0-16.6 1.8-20 4.4l-5.8 15.6H109l10.5 28.8h-11.6l-1.3-4.3h-8.1l-1.3 4.3H86l-4.5 12.2c3.1 3.2 13.1 5.7 25.4 5.7 11.5 0 30.5-2.6 39.1-5.8V48.3c-3.3-2-13.1-4.8-23.6-4.8m18.2 27.1h-3.9v14.7h3.9v7.1h-18.9v-7.1h3.9V70.6h-3.9v-7.1h18.9zm-37.3 3.3 2 7.4h-5.6l2-7.4.6-3.1h.3z" style="fill:#f0b323"/><path d="m99.3 56.3-70.5-4.6 2.9 20.5c1.8-5.6 6.8-9.4 16.2-9.4 3.1 0 6.3.5 7.9 1v8.3c-1-.3-3.8-.7-6.2-.7-4.2 0-7.3 1.5-7.3 6.4 0 5.5 3.9 6.7 7.8 6.7 2 0 3.3-.1 5.7-.7V92c-2.8.8-4.9 1.1-8.2 1.1-6.8 0-11.1-2-13.7-5.1l3.1 21.7 46.1-9.5zM60.5 91.8v-8.2c2.2.8 5.4 1.4 8.7 1.4 2.8 0 3.9-.4 3.9-1.7 0-1.1-.9-1.4-3.9-1.9-4.2-.7-8.9-1.8-8.9-8.5 0-6.3 4.2-10.2 13.4-10.2 4.2 0 8.4.8 9.9 1.3v7.5c-3.1-.7-5.8-1.1-8.5-1.1-1.4 0-3.1.1-3.1 1.4 0 1.2 1 1.4 4.7 2.2 4.6.9 8.1 2.4 8.1 8.2 0 5.1-3.1 10.8-13.9 10.8-4.1.1-8.8-.6-10.4-1.2" style="fill:#b94700"/></g></switch></svg>
+		</a>
+	</nav>
+</footer>

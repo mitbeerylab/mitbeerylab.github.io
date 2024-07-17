@@ -1,0 +1,29 @@
+---
+import type { HTMLTag, Polymorphic } from "astro/types";
+import type { CollectionEntry } from "astro:content";
+
+import { Icon } from "astro-icon/components";
+import { Image } from "astro:assets";
+
+type Props<Tag extends HTMLTag> = {
+	people: CollectionEntry<"people">;
+	withDesc?: boolean;
+} & Polymorphic<{ as: Tag }>;
+
+const { as: Tag = "div", people, withDesc = false } = Astro.props;
+const { Content } = await people.render();
+---
+<Tag class="flex content-center justify-center">
+	<div class="flex items-center flex-shrink-0">
+		<Image class="rounded-full size-40" src={people.data.image} alt={`Profile image of ${people.data.name}`} />
+	</div>
+	<div class="flex mx-8 flex-col justify-center">
+		<div class="flex flex-row items-center">
+			{people.data.draft && <span class="text-red-500">(Draft) </span>}<h2 class="text-xl flex-shrink-0">{people.data.name}</h2><span class="mx-4 text-slate-500">{people.data.position}</span>
+		</div>
+		<p>
+			<Content />
+		</p>
+	</div>
+</Tag>
+{withDesc && <q class="line-clamp-3 italic">{people.data.description}</q>}
