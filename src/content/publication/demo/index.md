@@ -1,10 +1,10 @@
 ---
 title: "Demo Publication"
 publishDate: "18 March 2024"
-draft: true
+# draft: true
 ---
 
-<!-- This is just for demonstration purposes to show how a finished publication page might look. Please don't set draft: false -->
+<!-- This is just for demonstration purposes to show how a finished publication page might look -->
 
 ![](././images/aldi_banner_4.png)
 
