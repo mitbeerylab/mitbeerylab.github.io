@@ -15,6 +15,7 @@ import { remarkReadingTime } from "./src/utils/remark-reading-time";
 
 // https://astro.build/config
 export default defineConfig({
+	base: "/beerylab-website",
 	image: {
 		domains: ["webmention.io"],
 	},
@@ -52,7 +53,7 @@ export default defineConfig({
 	},
 	// https://docs.astro.build/en/guides/prefetch/
 	prefetch: true,
-	site: "https://mitbeerylab.github.io/",
+	site: "https://timm.haucke.xyz",
 	vite: {
 		optimizeDeps: {
 			exclude: ["@resvg/resvg-js"],
