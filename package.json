@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "astro dev",
 		"start": "astro dev",
-		"build": "astro build && staticrypt dist -r -p '$STATICRYPT_PASSWORD' && rm -rf dist && cp -r encrypted/dist dist",
+		"build": "astro build && staticrypt dist -r -p $(echo 'Y25LT1NMWWVLb1VpSzJnbVZJM1FS' | base64 -d) && rm -rf dist && cp -r encrypted/dist dist # temporary encryption just to prevent crawling of unfinished content",
 		"postbuild": "pagefind --site dist",
 		"preview": "astro preview",
 		"format": "prettier -w --cache . && prettier -w --cache **/*.astro",
