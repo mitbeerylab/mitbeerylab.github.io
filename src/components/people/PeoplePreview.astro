@@ -2,8 +2,8 @@
 import type { HTMLTag, Polymorphic } from "astro/types";
 import type { CollectionEntry } from "astro:content";
 
-import { Icon } from "astro-icon/components";
 import { Image } from "astro:assets";
+import { Icon } from "astro-icon/components";
 
 type Props<Tag extends HTMLTag> = {
 	people: CollectionEntry<"people">;
@@ -13,17 +13,46 @@ type Props<Tag extends HTMLTag> = {
 const { as: Tag = "div", people, withDesc = false } = Astro.props;
 const { Content } = await people.render();
 ---
+
 <Tag class="flex content-center justify-center">
-	<div class="flex items-center flex-shrink-0">
-		<Image class="rounded-full size-40" src={people.data.image} alt={`Profile image of ${people.data.name}`} />
+	<div class="flex flex-shrink-0 items-center">
+		<Image
+			alt={`Profile image of ${people.data.name}`}
+			class="size-40 rounded-full"
+			src={people.data.image}
+		/>
 	</div>
-	<div class="flex mx-8 flex-col justify-center">
+	<div class="mx-8 flex flex-col justify-center">
 		<div class="flex flex-row items-center">
-			{people.data.draft && <span class="text-red-500">(Draft) </span>}<h2 class="text-xl flex-shrink-0">{people.data.name}</h2><span class="mx-4 text-slate-500">{people.data.position}</span>
+			{people.data.draft && <span class="text-red-500">(Draft) </span>}<h2
+				class="flex-shrink-0 text-xl"
+			>
+				{people.data.name}
+			</h2><span class="mx-4 text-slate-500">{people.data.position}</span>
 		</div>
 		<p>
 			<Content />
 		</p>
+		<div>
+			{
+				people.data.links?.map((link) => (
+					<a
+						class="inline-block p-1 sm:hover:text-link my-3 mr-3"
+						href={link.href}
+						rel={`noopener noreferrer`}
+						target="_blank"
+					>
+						<Icon
+							aria-hidden="true"
+							class="inline-block h-6 w-6"
+							focusable="false"
+							name={link.icon}
+						/>
+						<span>{link.label}</span>
+					</a>
+				))
+			}
+		</div>
 	</div>
 </Tag>
 {withDesc && <q class="line-clamp-3 italic">{people.data.description}</q>}

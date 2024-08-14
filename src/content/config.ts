@@ -66,9 +66,14 @@ const people = defineCollection({
 		z.object({
 			draft: z.boolean().default(false),
 			image: image(),
+			links: z.array(z.object({
+				href: z.string(),
+				icon: z.string(),
+				label: z.string(),
+			})).optional(),
 			name: z.string(),
 			order: z.number().default(0),
-			position: z.string()
+			position: z.string(),
 		}),
 	type: "content",
 });
