@@ -78,4 +78,32 @@ const people = defineCollection({
 	type: "content",
 });
 
-export const collections = { people, publication, teaching };
+const talk = defineCollection({
+	schema: ({ image }) =>
+		z.object({
+			coverImage: z
+				.object({
+					alt: z.string(),
+					src: image(),
+				})
+				.optional(),
+			description: z.string().min(50).max(160).optional(),
+			draft: z.boolean().default(false),
+			external: z.string().url().optional(),
+			host: z.string().max(120),
+			ogImage: z.string().optional(),
+			publishDate: z
+				.string()
+				.or(z.date())
+				.transform((val) => new Date(val)),
+			tags: z.array(z.string()).default([]).transform(removeDupsAndLowerCase),
+			title: z.string().max(120),
+			updatedDate: z
+				.string()
+				.optional()
+				.transform((str) => (str ? new Date(str) : undefined)),
+		}),
+	type: "content",
+});
+
+export const collections = { people, publication, talk, teaching };

@@ -46,6 +46,10 @@ export const menuLinks: { path: string; title: string }[] = [
 		path: "/teaching/",
 		title: "Teaching & Community Building",
 	},
+	{
+		path: "/talks/",
+		title: "Recorded Talks",
+	},
 ];
 
 // https://expressive-code.com/reference/configuration/
