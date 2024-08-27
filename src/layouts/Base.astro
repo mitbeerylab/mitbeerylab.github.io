@@ -9,12 +9,13 @@ import Header from "@/components/layout/Header.astro";
 import { siteConfig } from "@/site-config";
 
 interface Props {
+	frontmatter: SiteMeta;
 	meta: SiteMeta;
 }
-
 const {
-	meta: { articleDate, description = siteConfig.description, ogImage, title },
-} = Astro.props;
+	articleDate, description = siteConfig.description, ogImage, title,
+} = Astro.props.meta || Astro.props.frontmatter;
+
 ---
 
 <html lang={siteConfig.lang}>
