@@ -48,6 +48,7 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 
 <PageLayout meta={meta}>
 	<h1 class="title mb-6">Publications</h1>
+	{page.data.length < 3 && <p class="title text-lg mb-6">We're still new, stay tuned{page.data.length > 0 && " for more"}!</p>}
 	<div class="grid gap-y-16 sm:grid-cols-[3fr_1fr] sm:gap-x-8">
 		<section aria-label="Blog publication list">
 			{

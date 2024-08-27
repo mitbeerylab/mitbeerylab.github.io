@@ -24,7 +24,7 @@ const { page, uniqueTags } = Astro.props;
 
 const meta = {
 	description: "Read my collection of teaching material",
-	title: "Teaching",
+	title: "Teaching & Community Building",
 };
 
 const paginationProps = {
@@ -47,7 +47,7 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 ---
 
 <PageLayout meta={meta}>
-	<h1 class="title mb-6">Teaching</h1>
+	<h1 class="title mb-6">Teaching & Community Building</h1>
 	<div class="grid gap-y-16 sm:gap-x-8">
 		<section aria-label="Blog teaching list">
 			{

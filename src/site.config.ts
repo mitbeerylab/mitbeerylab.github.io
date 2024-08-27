@@ -44,7 +44,7 @@ export const menuLinks: { path: string; title: string }[] = [
 	},
 	{
 		path: "/teaching/",
-		title: "Teaching",
+		title: "Teaching & Community Building",
 	},
 ];
 
