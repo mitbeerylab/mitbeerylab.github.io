@@ -2,7 +2,7 @@
 name: Rupa Kurinchi-Vendhan
 position: PhD Student
 image: ./image.jpg
-draft: true
+draft: false
 links:
     - label: Website
       href: https://rupakv.com
