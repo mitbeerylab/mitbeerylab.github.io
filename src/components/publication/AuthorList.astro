@@ -1,0 +1,37 @@
+---
+import type { HTMLTag, Polymorphic } from "astro/types";
+import type { CollectionEntry } from "astro:content";
+import { getEntry } from "astro:content";
+
+type Props<Tag extends HTMLTag> = {
+	publication: CollectionEntry<"publication">;
+} & Polymorphic<{ as: Tag }>;
+
+const { as: Tag = "div", publication } = Astro.props;
+
+const authorEntries = await Promise.all(publication.data.authors.map(async (author) => {
+	let name
+	let link
+	if (typeof author === "string" && author.slice(0, 1) === "~") {
+		const authorEntry = await getEntry("people", author.slice(1))
+		name = authorEntry?.data.name
+		link = authorEntry?.data.links && authorEntry?.data.links[0].href
+	} else if (typeof author === "string") {
+		name = author
+	} else if (typeof author === "object") {
+		name = author.name
+		link = author.link
+	}
+	return {name, link}
+}))
+
+---
+<Tag>
+	{authorEntries.map(({ name, link }, idx) => {
+		if (link) {
+			return <><a href={link}>{name}</a>{idx < authorEntries.length - 1 && <span>, </span>}</>
+		} else {
+			return <><span>{name}</span>{idx < authorEntries.length - 1 && <span>, </span>}</>
+		}
+	})}
+</Tag>

@@ -4,14 +4,15 @@ import type { CollectionEntry } from "astro:content";
 import { Image } from "astro:assets";
 
 import FormattedDate from "../FormattedDate.astro";
+import AuthorList from "./AuthorList.astro";
 
 interface Props {
 	content: CollectionEntry<"publication">;
 }
 
-const {
-	content: { data, render },
-} = Astro.props;
+const { content } = Astro.props;
+
+const { data, render} = content;
 
 const { remarkPluginFrontmatter } = await render();
 
@@ -37,6 +38,9 @@ const dateTimeOptions: Intl.DateTimeFormatOptions = {
 <h1 class="title mb-3 sm:mb-1">
 	{data.title}
 </h1>
+<div class="my-4">
+	<AuthorList publication={content} />
+</div>
 <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
 	<p class="font-semibold">
 		<FormattedDate date={data.publishDate} dateTimeOptions={dateTimeOptions} /> /{" "}

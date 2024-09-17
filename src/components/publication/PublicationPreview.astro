@@ -3,9 +3,11 @@ import type { HTMLTag, Polymorphic } from "astro/types";
 import type { CollectionEntry } from "astro:content";
 
 import { getPublicationSortDate } from "@/data/publication";
+import { Image } from "astro:assets";
+import { Icon } from "astro-icon/components";
 
 import FormattedDate from "../FormattedDate.astro";
-import { Icon } from "astro-icon/components";
+import AuthorList from "./AuthorList.astro"
 
 type Props<Tag extends HTMLTag> = {
 	publication: CollectionEntry<"publication">;
@@ -14,19 +16,28 @@ type Props<Tag extends HTMLTag> = {
 
 const { as: Tag = "div", publication, withDesc = false } = Astro.props;
 const publicationDate = getPublicationSortDate(publication);
+const href = publication.data.external ? publication.data.external : `/publications/${publication.slug}/`;
 ---
-
-<FormattedDate class="min-w-[120px] text-gray-600 dark:text-gray-400" date={publicationDate} />
 <Tag>
-	{publication.data.draft && <span class="text-red-500">(Draft) </span>}
-	{publication.data.external ? (
-		<a class="cactus-link" href={publication.data.external}>
-			{publication.data.title}<Icon aria-hidden="true" class="inline mx-1 h-4 w-4" focusable="false" name="mdi:external-link" />
+	<div class="flex flex-row">
+		<a class="size-40 flex justify-center items-center" data-astro-prefetch href={href}>
+			<Image
+				alt=""
+				src={publication.data.thumbnail}
+			/>
 		</a>
-	) : (
-		<a class="cactus-link" data-astro-prefetch href={`/publications/${publication.slug}/`}>
-			{publication.data.title}
-		</a>
-	)}
+		<div class="flex flex-col justify-center">
+			<a class="mx-4 my-2 font-bold" data-astro-prefetch href={href}>
+				{publication.data.draft && <span class="text-red-500">(Draft) </span>}
+				{publication.data.title}
+				{publication.data.external && <Icon aria-hidden="true" class="inline mx-1 h-4 w-4" focusable="false" name="mdi:external-link" />}
+			</a>
+			<div class="mx-4 my-2"><AuthorList publication={publication} /></div>
+			<span class="mx-4 my-2">
+				<FormattedDate class="min-w-[120px] text-gray-600 dark:text-gray-400" date={publicationDate} />
+				in {publication.data.venue}
+			</span>
+		</div>
+	</div>
 </Tag>
 {withDesc && <q class="line-clamp-3 italic">{publication.data.description}</q>}

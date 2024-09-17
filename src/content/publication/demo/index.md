@@ -1,7 +1,23 @@
 ---
 title: "Demo Publication"
+authors:
+    - ~justin
+    - ~timm
+    - name: Suzanne Stathatos
+      link: https://suzanne-stathatos.github.io
+    - name: Siqi Deng
+      link: https://www.amazon.science/author/tiffany-deng
+    - name: Erik Young
+      link: https://www.skagitfisheries.org/about-2/board/
+    - name: Pietro Perona
+      link: https://www.eas.caltech.edu/people/perona
+    - ~sara
+    - name: Grant Van Horn
+      link: https://gvh.codes/ 
 publishDate: "18 March 2024"
 # draft: true
+thumbnail: ./images/aldi_framework_final.png
+venue: arXiv.org
 ---
 
 <!-- This is just for demonstration purposes to show how a finished publication page might look -->
