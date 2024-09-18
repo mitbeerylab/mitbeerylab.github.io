@@ -117,4 +117,15 @@ const talk = defineCollection({
 	type: "content",
 });
 
-export const collections = { people, publication, talk, teaching };
+const albums = defineCollection({
+	schema: ({ image }) =>
+	  z.object({
+		cover: image(),
+		description: z.string().optional(),
+		draft: z.boolean().default(false),
+		title: z.string(),
+	  }),
+	type: "data",
+  });
+
+export const collections = { albums, people, publication, talk, teaching };

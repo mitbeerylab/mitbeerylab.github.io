@@ -50,6 +50,10 @@ export const menuLinks: { path: string; title: string }[] = [
 		path: "/talks/",
 		title: "Recorded Talks",
 	},
+	{
+		path: "/albums/",
+		title: "Albums",
+	},
 ];
 
 // https://expressive-code.com/reference/configuration/

@@ -1,0 +1,85 @@
+---
+import { getCollection } from "astro:content";
+import { Picture } from "astro:assets";
+
+import BaseLayout from "@/layouts/Base.astro";
+
+export async function getStaticPaths() {
+  const albums = await getCollection("albums");
+
+  const paths = Object.values(albums).map((album) => {
+    return {
+      params: {
+        id: album.id,
+      },
+      props: {
+        album,
+      },
+    };
+  });
+
+  return paths;
+}
+
+const { album } = Astro.props;
+
+async function getAlbumImages(albumId: string) {
+  // 1. List all album files from collections path
+  let images = import.meta.glob<{ default: ImageMetadata }>(
+    "/src/content/albums/**/*.{jpeg,jpg}"
+  );
+
+  // 2. Filter images by albumId
+  images = Object.fromEntries(
+    Object.entries(images).filter(([key]) => key.includes(albumId))
+  );
+
+  // 3. Images are promises, so we need to resolve the glob promises
+  const resolvedImages = await Promise.all(
+    Object.values(images).map((image) => image().then((mod) => mod.default))
+  );
+
+  // 4. Shuffle images in random order
+  resolvedImages.sort(() => Math.random() - 0.5);
+  return resolvedImages;
+}
+
+const images = await getAlbumImages(album.id);
+
+---
+<BaseLayout meta={{ title: album.data.title, description: album.data.description }}>
+  <div class="text-center my-16 mb-32">
+      <h1 class="text-3xl xl:text-6xl font-bold">
+        {album.data.title}
+      </h1>
+      <p class="text-lg xl:text-2xl my-4">
+        {album.data.description}
+      </p>
+
+      
+      <div
+        class="mx-auto container my-8 sm:columns-2 md:columns-3 lg:columns-4 xl:columns-5"
+      >
+        {
+          images.map((image) => (
+            <Picture
+              src={image}
+              alt={`Image from ${album.data.title} album`}
+              formats={["avif", "webp"]}
+              quality={50}
+              widths={[240, 540, 720, image.width]}
+              sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${image.width}px`}
+              class="rounded mb-4 border border-transparent hover:border-gray-300 transition-all duration-300 ease-in-out hover:shadow-lg hover:scale-150"
+              loading="lazy"
+            />
+          ))
+        }
+      </div>
+    
+      <p class="text-lg my-4 text-center">
+        <a href="/gallery/" class="text-white hover:underline"
+          >Go back →</a
+        >
+      </p>
+    </div>
+</BaseLayout>
