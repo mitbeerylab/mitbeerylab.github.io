@@ -10,9 +10,13 @@ const allPublicationsByDate = sortMDByDate(allPublications).slice(0, MAX_POSTS);
 ---
 
 <PageLayout meta={{ title: "About" }}>
-	<section>
+	<section style="max-width:800px">
+        <h3 class="mb-5 text-xl font-bold">Welcome to the BeeryLab at MIT CSAIL led by Sara Beery!</h3>
+        <p class="mb-4"><b>
+            Our goal is to build machine learning systems that enable global-scale environmental and biodiversity monitoring.
+        </b></p>
 		<p class="mb-4">
-			Our research focuses on building computer vision methods that enable global-scale environmental and biodiversity monitoring across data modalities, tackling real-world challenges including strong spatiotemporal correlations that lead to domain shift, imperfect data quality, fine-grained categories, and long-tailed distributions.
+			To achieve this, our research involves Understanding multiple modalities, tackling real-world challenges including strong spatiotemporal correlations that lead to domain shift, imperfect data quality, fine-grained categories, and long-tailed distributions.
 		</p>
 	</section>
 	<section aria-label="Blog publication list" class="mt-16">
