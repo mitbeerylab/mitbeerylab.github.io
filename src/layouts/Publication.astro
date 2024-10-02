@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
 
+import Prose from "@/components/Prose.astro";
 import Hero from "@/components/publication/Hero.astro";
 import TOC from "@/components/publication/TOC.astro";
 
@@ -23,11 +24,9 @@ const { headings } = await publication.render();
 		{!!headings.length && <TOC headings={headings} />}
 		<article class="flex-grow break-words" data-pagefind-body>
 			<div id="hero"><Hero content={publication} /></div>
-			<div
-				class="prose prose-sm prose-cactus mt-12 prose-headings:font-semibold prose-headings:text-accent-2 prose-headings:before:absolute prose-headings:before:-ms-4 prose-headings:before:text-accent prose-headings:before:content-['#'] prose-th:before:content-none"
-			>
+			<Prose>
 				<slot />
-			</div>
+			</Prose>
 		</article>
 	</div>
 	<button

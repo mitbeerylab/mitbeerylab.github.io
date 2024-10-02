@@ -2,9 +2,10 @@
 layout: "../layouts/Base.astro"
 title: "Join"
 description: "Interested in joining the group?"
+prose: True
 ---
 
-Interested in joining the group?
+# Interested in joining the group?
 
 If you are interested in any position with the group (Postdoc, PhD, MEng, UROP, Visitor), instead of emailing me please fill out the interest survey below so I can better organize my responses. I am unlikely to respond to individual emails.
 
