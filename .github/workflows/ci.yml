@@ -24,8 +24,22 @@ jobs:
         uses: actions/checkout@v4
         with:
           lfs: true
+      - name: Restore optimized assets
+        id: cache-assets-restore
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            ./node_modules/.astro/assets
+          key: astro-assets
       - name: Install, build, and upload your site output
         uses: withastro/action@v2
+      - name: Save optimized assets
+        id: cache-assets-save
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            ./node_modules/.astro/assets
+          key: astro-assets
 
   deploy:
     needs: build
