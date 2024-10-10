@@ -1,8 +1,7 @@
 ---
-import { getCollection } from "astro:content";
-import { Picture } from "astro:assets";
-
 import BaseLayout from "@/layouts/Base.astro";
+import { Picture } from "astro:assets";
+import { getCollection } from "astro:content";
 
 export async function getStaticPaths() {
   const albums = await getCollection("albums");
@@ -47,7 +46,7 @@ async function getAlbumImages(albumId: string) {
 const images = await getAlbumImages(album.id);
 
 ---
-<BaseLayout meta={{ title: album.data.title, description: album.data.description }}>
+<BaseLayout meta={{ description: album.data.description, title: album.data.title }}>
   <div class="text-center my-16 mb-32">
       <h1 class="text-3xl xl:text-6xl font-bold">
         {album.data.title}
@@ -63,23 +62,31 @@ const images = await getAlbumImages(album.id);
         {
           images.map((image) => (
             <Picture
-              src={image}
               alt={`Image from ${album.data.title} album`}
-              formats={["avif", "webp"]}
-              quality={50}
-              widths={[240, 540, 720, image.width]}
-              sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${image.width}px`}
-              class="rounded mb-4 border border-transparent hover:border-gray-300 transition-all duration-300 ease-in-out hover:shadow-lg hover:scale-150"
+              class="rounded mb-4"
+              data-zoomable
+              formats={["avif", "webp", "jpeg"]}
               loading="lazy"
+              quality="high"
+              sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${image.width}px`}
+              src={image}
+              widths={[240, 540, 720, image.width]}
             />
           ))
         }
       </div>
     
       <p class="text-lg my-4 text-center">
-        <a href="/gallery/" class="text-white hover:underline"
+        <a class="text-white hover:underline" href="/gallery/"
           >Go back →</a
         >
       </p>
     </div>
 </BaseLayout>
+
+<script>
+  import mediumZoom from "medium-zoom/dist/pure"
+  import "medium-zoom/dist/style.css"
+
+  mediumZoom("[data-zoomable]")
+</script>
