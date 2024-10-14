@@ -107,6 +107,7 @@ const talk = defineCollection({
 				.string()
 				.or(z.date())
 				.transform((val) => new Date(val)),
+      speaker: z.string().max(120),
 			tags: z.array(z.string()).default([]).transform(removeDupsAndLowerCase),
 			title: z.string().max(120),
 			updatedDate: z
