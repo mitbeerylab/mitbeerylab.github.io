@@ -20,16 +20,20 @@ const parseYoutubeID = (url: string) => {
     return (match && match[7] && match[7].length === 11) ? match[7] : false;
 }
 ---
-<Tag class="flex flex-row items-center">
+<Tag class="flex flex-row items-start">
 	<FormattedDate class="min-w-[120px] text-gray-600 dark:text-gray-400" date={talkDate} />
+	<div class="ml-4">
 		{talk.data.draft && <span class="text-red-500">(Draft) </span>}
 		{talk.data.external && (
-			<a href={talk.data.external}>{parseYoutubeID(talk.data.external) && <img alt="" src={`https://img.youtube.com/vi/${parseYoutubeID(talk.data.external)}/default.jpg`} />}</a>
-			<a href={talk.data.external}class="cactus-link m-6">{talk.data.title}<Icon aria-hidden="true" class="inline mx-1 h-4 w-4" focusable="false" name="mdi:external-link" /></a>
+			<div>
+				<a href={talk.data.external} class="cactus-link text-xl font-bold">{talk.data.title}</a>
+				{parseYoutubeID(talk.data.external) && <img alt="" src={`https://img.youtube.com/vi/${parseYoutubeID(talk.data.external)}/default.jpg`} class="mt-2" />}
+			</div>
 		)}
 		<div class="mt-2">
 			<p class="font-bold">{talk.data.speaker}</p> <!-- Speaker's name -->
 			<p class="text-gray-500">{talk.data.host}</p> <!-- Host's name in grey -->
 		</div>
-	{withDesc && <q class="line-clamp-3 italic">{talk.data.description}</q>}
+		{withDesc && <q class="line-clamp-3 italic">{talk.data.description}</q>}
+	</div>
 </Tag>
