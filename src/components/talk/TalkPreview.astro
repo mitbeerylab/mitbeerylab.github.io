@@ -20,13 +20,13 @@ const parseYoutubeID = (url: string) => {
     return (match && match[7] && match[7].length === 11) ? match[7] : false;
 }
 ---
-<Tag class="flex flex-row items-center">
+<Tag class="flex flex-row items-start">
 	<FormattedDate class="min-w-[120px] text-gray-600 dark:text-gray-400" date={talkDate} />
-	<div class="ml-4">
+	<div class="flex-1">
 		{talk.data.draft && <span class="text-red-500">(Draft) </span>}
 		{talk.data.external && (
 			<div>
-				<a href={talk.data.external} class="cactus-link m-6 text-xl font-bold">
+				<a href={talk.data.external} class="cactus-link text-xl font-bold">
 					{talk.data.title}
 					<Icon aria-hidden="true" class="inline mx-1 h-4 w-4" focusable="false" name="mdi:external-link" />
 				</a>
