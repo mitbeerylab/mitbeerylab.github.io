@@ -35,4 +35,8 @@
 	body {
 		@apply mx-auto flex min-h-screen max-w-6xl flex-col bg-bgColor px-8 pt-16 font-sans text-sm font-normal text-textColor antialiased;
 	}
+
+	:root[data-theme="dark"] .mit-logo {
+		filter: invert(100%);
+	}
 }
