@@ -3,9 +3,9 @@ import type { HTMLTag, Polymorphic } from "astro/types";
 import type { CollectionEntry } from "astro:content";
 
 import { getTalkSortDate } from "@/data/talk";
+import { Icon } from "astro-icon/components";
 
 import FormattedDate from "../FormattedDate.astro";
-import { Icon } from "astro-icon/components";
 
 type Props<Tag extends HTMLTag> = {
 	talk: CollectionEntry<"talk">;
@@ -21,12 +21,13 @@ const parseYoutubeID = (url: string) => {
 }
 ---
 <Tag class="flex flex-row items-start">
-	<FormattedDate class="min-w-[120px] text-gray-600 dark:text-gray-400" date={talkDate} />
+	<!-- <a href={talk.data.external}>{parseYoutubeID(talk.data.external) && <img alt="" src={`https://img.youtube.com/vi/${parseYoutubeID(talk.data.external)}/default.jpg`} />}</a> -->
+	<FormattedDate class="min-w-[120px] text-gray-600 dark:text-gray-400 leading-7" date={talkDate} />
 	<div class="flex-1">
 		{talk.data.draft && <span class="text-red-500">(Draft) </span>}
 		{talk.data.external && (
 			<div>
-				<a href={talk.data.external} class="cactus-link text-xl font-bold">
+				<a class="cactus-link text-xl font-bold" href={talk.data.external}>
 					{talk.data.title}
 					<Icon aria-hidden="true" class="inline mx-1 h-4 w-4" focusable="false" name="mdi:external-link" />
 				</a>

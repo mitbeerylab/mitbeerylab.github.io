@@ -48,22 +48,22 @@ const paginationProps = {
 	<section aria-label="Blog album list" class="mx-auto container my-8 sm:columns-1 md:columns-3 lg:columns-3 xl:columns-3">
 		{
 			page.data.map((album) => (
-				<a href={`/albums/${album.id}/`} class="block text-center mb-32">
+				<a class="block text-center mb-32" href={`/albums/${album.id}/`}>
 					<h1 class="text-3xl font-bold">
 						{album.data.title}
 					</h1>
-					<p class="text-lg my-4">
+					<p class="text-lg my-4 min-h-[2lh]">
 						{album.data.description}
 					</p>
 					<Picture
-						src={album.data.cover}
 						alt={`Image from ${album.data.title} album`}
-						formats={["avif", "webp"]}
-						quality={50}
-						widths={[240, 540, 720, album.data.cover.width]}
-						sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${album.data.cover.width}px`}
 						class="rounded mb-4 border border-transparent hover:border-gray-300 transition-all duration-300 ease-in-out hover:shadow-lg"
+						formats={["avif", "webp"]}
 						loading="lazy"
+						quality={50}
+						sizes={`(max-width: 360px) 240px, (max-width: 720px) 540px, (max-width: 1600px) 720px, ${album.data.cover.width}px`}
+						src={album.data.cover}
+						widths={[240, 540, 720, album.data.cover.width]}
 						/>
 				</a>
 			))
