@@ -14,8 +14,8 @@ const { as: Tag = "div", people, withDesc = false } = Astro.props;
 const { Content } = await people.render();
 ---
 
-<Tag class="flex content-center justify-center">
-	<div class="flex flex-shrink-0 items-center">
+<Tag class="flex content-center justify-center items-center flex-col md:flex-row">
+	<div class="flex flex-shrink-0 items-center mb-4 md:mb-0">
 		<Image
 			alt={`Profile image of ${people.data.name}`}
 			class="size-40 rounded-full"
@@ -33,7 +33,7 @@ const { Content } = await people.render();
 		<p>
 			<Content />
 		</p>
-		<div>
+		<div class="flex flex-col md:flex-row md:justify-normal md:items-start justify-center items-center">
 			{
 				people.data.links?.map((link) => (
 					<a
