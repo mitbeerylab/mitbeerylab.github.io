@@ -15,7 +15,7 @@ authors:
     - name: Grant Van Horn
       link: https://gvh.codes/ 
 publishDate: "18 March 2024"
-# draft: true
+draft: true
 thumbnail: ./images/aldi_framework_final.png
 venue: arXiv.org
 ---
