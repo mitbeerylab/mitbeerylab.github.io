@@ -19,6 +19,7 @@ const publication = defineCollection({
 					}),
 				])
 			),
+			blog: z.boolean().default(false),
 			coverImage: z
 				.object({
 					alt: z.string(),
@@ -40,7 +41,7 @@ const publication = defineCollection({
 				.string()
 				.optional()
 				.transform((str) => (str ? new Date(str) : undefined)),
-			venue: z.string()
+			venue: z.string(),
 		}),
 	type: "content",
 });

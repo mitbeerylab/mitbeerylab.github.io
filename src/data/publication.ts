@@ -2,9 +2,9 @@ import { siteConfig } from "@/site-config";
 import { type CollectionEntry, getCollection } from "astro:content";
 
 /** filter out draft publications based on the environment */
-export async function getAllPublications(noExternal=false) {
+export async function getAllPublications(noExternal=false, blog=false) {
 	return await getCollection("publication", ({ data }) => {
-		return (import.meta.env.PROD ? !data.draft : true) && (!noExternal || !data.external);
+		return (import.meta.env.PROD ? !data.draft : true) && (!noExternal || !data.external) && (data.blog === blog);
 	});
 }
 
