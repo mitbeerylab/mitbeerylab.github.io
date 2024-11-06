@@ -16,11 +16,11 @@ type Props<Tag extends HTMLTag> = {
 
 const { as: Tag = "div", publication, withDesc = false } = Astro.props;
 const publicationDate = getPublicationSortDate(publication);
-const href = publication.data.external ? publication.data.external : `/publications/${publication.slug}/`;
+const href = publication.data.external ? publication.data.external : `/${publication.data.blog ? "blog" : "publication"}/${publication.slug}/`;
 ---
 <Tag>
 	<div class="flex flex-row">
-		<a class="size-40 flex justify-center items-center" data-astro-prefetch href={href}>
+		<a class="size-32 flex justify-center items-center grow-0 shrink-0" data-astro-prefetch href={href}>
 			<Image
 				alt=""
 				src={publication.data.thumbnail}
