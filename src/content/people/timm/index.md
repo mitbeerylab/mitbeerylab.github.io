@@ -13,4 +13,4 @@ links:
       href: https://scholar.google.com/citations?user=AtT9n5MAAAAJ
       icon: mdi:school
 ---
-Timm is a first-year PhD student at MIT CSAIL, advised by Sara Beery. His research is focused on computer vison approaches for ecological and environmental monitoring.
+Timm is a PhD student at MIT CSAIL and advised by Sara Beery. He is interested in multi-modal environmental and biodiversity monitoring, as well as 3D reconstruction of natural scenes to enable better animal population density estimation.
