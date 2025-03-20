@@ -6,9 +6,18 @@ import Image from "astro/components/Image.astro";
 import Search from "../Search.astro";
 import ThemeToggle from "../ThemeToggle.astro";
 
+const headerImages = await Astro.glob("/src/content/albums/header/*").then(files => {
+  return files.map(file => file.default);
+});
+
+const hashLocation = Astro.request.url.split("").map((char) => char.charCodeAt(0)).reduce((acc, cur) => acc + cur, 0);
+
+const selectedHeaderImage = headerImages[hashLocation % headerImages.length];
+
 const url = new URL(Astro.request.url);
 ---
-
+<Image alt="" class="absolute top-0 left-0 h-96 object-cover" src={selectedHeaderImage} />
+<div class="h-96" />
 <header class="group relative mb-28 flex items-center justify-between" id="main-header">
 	<div class="flex sm:flex-col">
 		<a
