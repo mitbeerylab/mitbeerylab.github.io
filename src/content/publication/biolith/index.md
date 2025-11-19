@@ -13,7 +13,7 @@ authors:
   - name: Levente Klein 
     link: https://research.ibm.com/people/levente-klein 
   - name: David Rolnick
-    link:https://davidrolnick.com/ 
+    link: https://davidrolnick.com/ 
   - ~gillespl
   - ~sara
 ---
