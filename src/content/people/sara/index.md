@@ -2,7 +2,7 @@
 name: Sara Beery
 position: Assistant Professor & PI
 image: ./image.jpg
-order: -1
+order: -2
 links:
     - label: Website
       href: https://beerys.github.io

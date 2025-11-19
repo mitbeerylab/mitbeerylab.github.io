@@ -3,6 +3,7 @@ name: Lauren Gillespie
 position: Postdoc
 image: ./image.jpg
 draft: false
+order: -1
 links:
     - label: Website
       href: https://gillespl.com/ 
