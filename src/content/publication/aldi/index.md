@@ -1,7 +1,7 @@
 ---
 title: "Align and Distill: Unifying and Improving Domain Adaptive Object Detection"
-publishDate: "18 March 2024"
-venue: arXiv.org
+publishDate: "13 March 2025"
+venue: TMLR 2025
 external: https://aldi-daod.github.io/
 thumbnail: ./images/aldi_framework_final.png
 authors:
