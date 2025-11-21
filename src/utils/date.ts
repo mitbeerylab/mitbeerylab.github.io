@@ -7,10 +7,7 @@ export function getFormattedDate(
 	options?: Intl.DateTimeFormatOptions,
 ) {
 	if (typeof options !== "undefined") {
-		return new Date(date).toLocaleDateString(siteConfig.date.locale, {
-			...(siteConfig.date.options as Intl.DateTimeFormatOptions),
-			...options,
-		});
+		return new Date(date).toLocaleDateString(siteConfig.date.locale, options);
 	}
 
 	return dateFormat.format(new Date(date));

@@ -16,7 +16,11 @@ const { as: Tag = "div", teaching, withDesc = false } = Astro.props;
 const teachingDate = getTeachingSortDate(teaching);
 ---
 
-<FormattedDate class="min-w-[120px] text-gray-600 dark:text-gray-400" date={teachingDate} />
+<FormattedDate
+	class="min-w-[120px] text-gray-600 dark:text-gray-400"
+	date={teachingDate}
+	dateTimeOptions={{ month: "long", day: undefined, year: undefined }}
+/> 
 <Tag>
 	{teaching.data.draft && <span class="text-red-500">(Draft) </span>}
 	{teaching.data.external ? (
