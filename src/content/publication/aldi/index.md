@@ -15,7 +15,12 @@ authors:
       link: https://www.skagitfisheries.org/about-2/board/
     - name: Pietro Perona
       link: https://www.eas.caltech.edu/people/perona
-    - ~sara
+    - ref: ~sara
+      annotation: "†"
     - name: Grant Van Horn
       link: https://gvh.codes/ 
+      annotation: "†"
+annotationLegend:
+  "*": "Equal contribution"
+  "†": "Equal advising"
 ---

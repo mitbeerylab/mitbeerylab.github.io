@@ -14,11 +14,11 @@ authors:
     link: https://www.inaturalist.org/users/44845
   - name: Gabriel Brostow
     link: http://www0.cs.ucl.ac.uk/staff/g.brostow/
-    annotation: "†"
   - name: Kate E. Jones
     link: https://www.ucl.ac.uk/biosciences/people/prof-kate-jones
   - name: Oisin Mac Aodha
     link: https://homepages.inf.ed.ac.uk/omacaod/
+    annotation: "†"
   - ref: "~sara"
     annotation: "†"
   - name: Grant Van Horn
