@@ -51,10 +51,6 @@ export const menuLinks: { path: string; title: string }[] = [
 		title: "Recorded Talks",
 	},
 	{
-		path: "/blog/",
-		title: "Blog",
-	},
-	{
 		path: "/albums/",
 		title: "Albums",
 	},

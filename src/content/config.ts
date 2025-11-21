@@ -14,11 +14,14 @@ const publication = defineCollection({
 				z.union([
 					z.string(),
 					z.object({
+						name: z.string().optional(),
 						link: z.string().url().optional(),
-						name: z.string(),
-					}),
+						annotation: z.union([z.string(), z.array(z.string())]).optional(),
+						ref: z.string().optional(),
+					})
 				])
 			),
+			annotationLegend: z.record(z.string()).optional(),
 			blog: z.boolean().default(false),
 			coverImage: z
 				.object({
@@ -78,11 +81,13 @@ const people = defineCollection({
 		z.object({
 			draft: z.boolean().default(false),
 			image: image(),
-			links: z.array(z.object({
-				href: z.string(),
-				icon: z.string(),
-				label: z.string(),
-			})).optional(),
+			links: z.array(
+				z.object({
+					href: z.string(),
+					icon: z.string(),
+					label: z.string(),
+				})
+			).optional(),
 			name: z.string(),
 			order: z.number().default(0),
 			position: z.string(),

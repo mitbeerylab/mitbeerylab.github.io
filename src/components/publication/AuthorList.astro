@@ -7,31 +7,87 @@ type Props<Tag extends HTMLTag> = {
 	publication: CollectionEntry<"publication">;
 } & Polymorphic<{ as: Tag }>;
 
+type AnnotationInput = string | string[] | undefined;
+
+const normalizeAnnotations = (annotation?: AnnotationInput) => {
+	if (!annotation) return [];
+	return Array.isArray(annotation) ? annotation : [annotation];
+};
+
 const { as: Tag = "div", publication } = Astro.props;
 
-const authorEntries = await Promise.all(publication.data.authors.map(async (author) => {
-	let name
-	let link
-	if (typeof author === "string" && author.slice(0, 1) === "~") {
-		const authorEntry = await getEntry("people", author.slice(1))
-		name = authorEntry?.data.name
-		link = authorEntry?.data.links && authorEntry?.data.links[0].href
-	} else if (typeof author === "string") {
-		name = author
-	} else if (typeof author === "object") {
-		name = author.name
-		link = author.link
-	}
-	return {name, link}
-}))
+const authorEntries = await Promise.all(
+	publication.data.authors.map(async (author) => {
+		let name: string | undefined;
+		let link: string | undefined;
+		let annotationSymbols = normalizeAnnotations(
+			typeof author === "string" ? undefined : author.annotation,
+		);
+
+		if (typeof author === "string") {
+			if (author.startsWith("~")) {
+				const authorEntry = await getEntry("people", author.slice(1));
+				name = authorEntry?.data.name ?? author.slice(1);
+				link = authorEntry?.data.links?.[0]?.href;
+			} else {
+				name = author;
+			}
+		} else {
+			if (author.ref) {
+				const slug = author.ref.replace(/^~/, "");
+				const authorEntry = await getEntry("people", slug);
+				name = authorEntry?.data.name ?? name;
+				link = authorEntry?.data.links?.[0]?.href ?? link;
+			}
+			if (!name) name = author.name;
+			link = link ?? author.link;
+		}
+
+		return {
+			name: name ?? "",
+			link,
+			annotationSymbols,
+		};
+	}),
+);
+
+const annotationLegendEntries = Object.entries(publication.data.annotationLegend ?? {});
 
 ---
 <Tag>
-	{authorEntries.map(({ name, link }, idx) => {
-		if (link) {
-			return <><a href={link}>{name}</a>{idx < authorEntries.length - 1 && <span>, </span>}</>
-		} else {
-			return <><span>{name}</span>{idx < authorEntries.length - 1 && <span>, </span>}</>
-		}
+	{authorEntries.map(({ name, link, annotationSymbols }, idx) => {
+		const annotationMarks = annotationSymbols.length ? (
+			annotationSymbols.map((symbol, symbolIdx) => (
+				<sup key={`symbol-${idx}-${symbolIdx}`} class="pl-0.5 text-xs">{symbol}</sup>
+			))
+		) : (
+			null
+		);
+		const separator = idx < authorEntries.length - 1 ? <span>, </span> : null;
+		return (
+			<>
+				{link ? (
+					<a href={link}>
+						{name}
+						{annotationMarks}
+					</a>
+				) : (
+					<span>
+						{name}
+						{annotationMarks}
+					</span>
+				)}
+				{separator}
+			</>
+		);
 	})}
+	{annotationLegendEntries.length > 0 && (
+		<ul class="mt-2 flex flex-wrap gap-3 text-sm text-slate-500">
+			{annotationLegendEntries.map(([symbol, description]) => (
+				<li key={symbol}>
+					<span class="font-semibold">{symbol}</span> {description}
+				</li>
+			))}
+		</ul>
+	)}
 </Tag>
