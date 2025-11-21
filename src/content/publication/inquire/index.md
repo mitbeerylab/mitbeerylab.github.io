@@ -23,6 +23,7 @@ authors:
     annotation: "†"
   - name: Grant Van Horn
     link: https://gvh.codes/
+    annotation: "†"
 annotationLegend:
   "*": "Equal contribution"
   "†": "Equal advising"
