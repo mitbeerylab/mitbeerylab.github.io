@@ -52,6 +52,8 @@ const authorEntries = await Promise.all(
 );
 
 const annotationLegendEntries = Object.entries(publication.data.annotationLegend ?? {});
+const usedAnnotationSymbols = new Set(authorEntries.flatMap((entry) => entry.annotationSymbols));
+const visibleLegendEntries = annotationLegendEntries.filter(([symbol]) => usedAnnotationSymbols.has(symbol));
 
 ---
 <Tag>
@@ -81,9 +83,9 @@ const annotationLegendEntries = Object.entries(publication.data.annotationLegend
 			</>
 		);
 	})}
-	{annotationLegendEntries.length > 0 && (
+	{visibleLegendEntries.length > 0 && (
 		<ul class="mt-2 flex flex-wrap gap-3 text-sm text-slate-500">
-			{annotationLegendEntries.map(([symbol, description]) => (
+			{visibleLegendEntries.map(([symbol, description]) => (
 				<li key={symbol}>
 					<span class="font-semibold">{symbol}</span> {description}
 				</li>

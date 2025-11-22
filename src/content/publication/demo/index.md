@@ -18,6 +18,9 @@ publishDate: "18 March 2024"
 draft: true
 thumbnail: ./images/aldi_framework_final.png
 venue: arXiv.org
+annotationLegend:
+  "*": "Equal contribution"
+  "†": "Equal advising"
 ---
 
 <!-- This is just for demonstration purposes to show how a finished publication page might look -->

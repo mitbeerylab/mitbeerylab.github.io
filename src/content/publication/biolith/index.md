@@ -16,4 +16,7 @@ authors:
     link: https://davidrolnick.com/ 
   - ~gillespl
   - ~sara
+annotationLegend:
+  "*": "Equal contribution"
+  "†": "Equal advising"
 ---

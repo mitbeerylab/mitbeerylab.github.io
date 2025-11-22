@@ -13,5 +13,7 @@ authors:
     - name: Daniel Sheldon
       link: https://people.cs.umass.edu/~sheldon/
     - ~sara
-    
+annotationLegend:
+  "*": "Equal contribution"
+  "†": "Equal advising"
 ---
