@@ -1,7 +1,7 @@
 ---
 title: "Essential tools but overlooked bias: Artificial intelligence and citizen science classification affect camera trap data"
 publishDate: "25 September 2025"
-venue: Methods in Ecology and Evolution
+venue: Methods in Ecology and Evolution (Research Article)
 external: https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.70132
 thumbnail: ./images/sara1.png
 authors:
