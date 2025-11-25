@@ -12,7 +12,7 @@ authors:
     link: https://scholar.google.com/citations?user=dItlYf8AAAAJ&hl=en&oi=sra
     annotation: "*"
   - name: Laura J. Pollock
-    link: https://scholar.google.com/citations?user=bdbOCU8AAAAJ&hl=en&oi=sra
+    link: https://qbiodiversity.org/about/
   - name: James T. Thorson
     link: https://scholar.google.com/citations?user=DxaalYEAAAAJ&hl=en&oi=sra
   - name: Jussi Mäkinen
