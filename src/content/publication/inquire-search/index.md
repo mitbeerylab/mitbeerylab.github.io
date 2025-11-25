@@ -3,7 +3,7 @@ title: "INQUIRE-Search: A Framework for Interactive Discovery in Large-Scale Bio
 publishDate: "19 November 2025"
 venue: arXiv
 external: https://arxiv.org/abs/2511.15656
-thumbnail: ./images/sara18.png
+thumbnail: ./images/inquiresearch.png
 authors:
   - ref: "~eddie"
     annotation: "*"
