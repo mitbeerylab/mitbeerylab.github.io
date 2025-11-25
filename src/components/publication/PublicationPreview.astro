@@ -33,6 +33,11 @@ const href = publication.data.external ? publication.data.external : `/${publica
 				{publication.data.external && <Icon aria-hidden="true" class="inline mx-1 h-4 w-4" focusable="false" name="mdi:external-link" />}
 			</a>
 			<div class="mx-4 my-2"><AuthorList publication={publication} /></div>
+			{publication.data.note && (
+				<span class="mx-4 text-xs text-gray-500 dark:text-gray-400">
+					{publication.data.note}
+				</span>
+			)}
 			<span class="mx-4 my-2">
 				<FormattedDate class="min-w-[120px] text-gray-600 dark:text-gray-400" date={publicationDate} />
 				in {publication.data.venue}
