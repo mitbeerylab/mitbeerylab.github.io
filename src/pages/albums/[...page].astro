@@ -44,7 +44,6 @@ const paginationProps = {
 
 <PageLayout meta={meta}>
 	<h1 class="title mb-6">Albums</h1>
-	{page.data.length < 3 && <p class="title text-lg mb-6">We're still new, stay tuned{page.data.length > 0 && " for more"}!</p>}
 	<section aria-label="Blog album list" class="mx-auto container my-8 sm:columns-1 md:columns-3 lg:columns-3 xl:columns-3">
 		{
 			page.data.map((album) => (
