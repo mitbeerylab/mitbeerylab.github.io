@@ -2,7 +2,7 @@
 title: "A landmark environmental law looks ahead"
 publishDate: "21 December 2023"
 venue: Science
-external: https://arxiv.org/abs/2406.11608
+external: https://www.science.org/doi/full/10.1126/science.adn3245
 thumbnail: ./images/sara17.jpg
 note: "PHOTO: ANTHONY SOUFFLE/STAR TRIBUNE/GETTYIMAGES"
 authors:
