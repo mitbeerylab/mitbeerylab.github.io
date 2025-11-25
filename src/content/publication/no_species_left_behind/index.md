@@ -3,7 +3,7 @@ title: "No species left behind: borrowing strength to map data-deficient species
 publishDate: "25 June 2025"
 venue: Trends in Ecology & Evolution
 external: https://www.cell.com/trends/ecology-evolution/fulltext/S0169-5347(25)00099-0
-thumbnail: ./images/sara5.png
+thumbnail: ./images/sara5.jpg
 authors:
   - name: Shubhi Sharma
     link: https://scholar.google.com/citations?user=JNkowVIAAAAJ&hl=en&oi=sra
