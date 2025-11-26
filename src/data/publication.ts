@@ -1,6 +1,8 @@
 import { siteConfig } from "@/site-config";
 import { type CollectionEntry, getCollection } from "astro:content";
 
+type PublicationAuthor = CollectionEntry<"publication">["data"]["authors"][number];
+
 /** filter out draft publications based on the environment */
 export async function getAllPublications(noExternal=false, blog=false) {
 	return await getCollection("publication", ({ data }) => {
@@ -22,6 +24,31 @@ export function sortMDByDate(publications: CollectionEntry<"publication">[]) {
 		const bDate = getPublicationSortDate(b).valueOf();
 		return bDate - aDate;
 	});
+}
+
+export async function getLabAuthorSlugs() {
+	const peopleEntries = await getCollection("people", ({ data }) => {
+		return import.meta.env.PROD ? !data.draft : true;
+	});
+	return new Set(peopleEntries.map((person) => person.slug));
+}
+
+function getAuthorSlug(author: PublicationAuthor) {
+	if (typeof author === "string") {
+		return author.startsWith("~") ? author.slice(1) : undefined;
+	}
+	if (!author.ref) return undefined;
+	return author.ref.startsWith("~") ? author.ref.slice(1) : author.ref;
+}
+
+export function getLabAuthorCount(
+	publication: CollectionEntry<"publication">,
+	labAuthorSlugs: Set<string>,
+) {
+	return publication.data.authors.reduce((count, author) => {
+		const slug = getAuthorSlug(author);
+		return slug && labAuthorSlugs.has(slug) ? count + 1 : count;
+	}, 0);
 }
 
 /** groups publications by year (based on option siteConfig.sortPublicationsByUpdatedDate), using the year as the key
@@ -62,4 +89,10 @@ export function getUniqueTagsWithCount(publications: CollectionEntry<"publicatio
 			new Map<string, number>(),
 		),
 	].sort((a, b) => b[1] - a[1]);
+}
+
+export async function getFeaturedPublications(noExternal = false, blog = false) {
+	const publications = await getAllPublications(noExternal, blog);
+	const labAuthorSlugs = await getLabAuthorSlugs();
+	return publications.filter((publication) => getLabAuthorCount(publication, labAuthorSlugs) >= 2);
 }

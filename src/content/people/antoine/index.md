@@ -9,8 +9,8 @@ links:
     - label: YouTube
       href: https://www.youtube.com/@AntoinevsScience
       icon: mdi:youtube
-    # - label: Google Scholar
-    #   href: 
-    #   icon: mdi:school
+    - label: LinkedIn
+      href: mdi:linkedin
+      icon: mdi:school
 ---
-Antoine is a PhD student at MIT, advised by Sara Beery. His research focuses on creating interpetable AI models to re-identify elephants and support conservation.
+Antoine is an EECS PhD student at MIT CSAIL advised by Sara Beery and generously supported by the MIT Siddartha Banerjee Fellowship. His current project focuses on integrating ecological expertise in re-identification models for elephants through interpretable and editable architectures. More broadly, he is interesting in building models to decode animal communication. Beyond research, Antoine strongly believes in the importance science communication, through content creation and documentary film-making.

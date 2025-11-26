@@ -33,6 +33,7 @@ const publication = defineCollection({
 			draft: z.boolean().default(false),
 			external: z.string().url().optional(),
 			ogImage: z.string().optional(),
+			note: z.string().optional(),
 			publishDate: z
 				.string()
 				.or(z.date())
