@@ -48,7 +48,7 @@ export const menuLinks: { path: string; title: string }[] = [
 	},
 	{
 		path: "/talks/",
-		title: "Recorded Talks",
+		title: "Talks",
 	},
 	{
 		path: "/albums/",
