@@ -13,4 +13,4 @@ links:
       href: https://scholar.google.com/citations?user=lbsq3E4AAAAJ&hl=en
       icon: mdi:school
 ---
-Elena is a PhD student at MIT, advised by Sara Beery & Sherrie Wang and supported by the GEM Fellowship. Her research focuses on designing machine learning systems that make imperfect ecological data actionable, drawing on domain-specific knowledge to turn flawed data into reliable, decision-ready insight.
+Elena is an EECS PhD student at MIT advised by Sara Beery & Sherrie Wang and supported by the GEM Fellowship. Her research focuses on designing machine learning systems that make imperfect ecological data actionable, drawing on domain-specific knowledge to turn flawed data into reliable, decision-ready insight.

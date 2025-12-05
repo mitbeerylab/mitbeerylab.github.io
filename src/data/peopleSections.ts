@@ -12,6 +12,7 @@ export const undergraduateSection: PeopleGroupEntry[] = [
 ];
 
 export const alumniSection: PeopleGroupEntry[] = [
+	{ name: "Tian Xie", note: "Visited Summer 2025 from Harvey Mudd" },
 	{ name: "Yuyan Chen", note: "Visited summer 2024 from McGill" },
 	{ name: "Xenia Zhao", note: "Undergraduate" },
 	{ name: "Asmi Kumar", note: "Undergraduate" },
