@@ -8,6 +8,8 @@ export interface SiteConfig {
 	lang: string;
 	ogLocale: string;
 	sortPublicationsByUpdatedDate: boolean;
+	sortTalksByUpdatedDate?: boolean;
+	sortTeachingByUpdatedDate?: boolean;
 	title: string;
 	webmentions?: {
 		link: string;
