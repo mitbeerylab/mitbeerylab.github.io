@@ -15,7 +15,7 @@ links:
       href: https://scholar.google.com/citations?user=SBifPtYAAAAJ
       icon: mdi:school
 ---
-    Lukas is a Fulbright Visiting Scholar at MIT CSAIL. 
-    He build computer vision and machine learning systems for biodiversity monitoring, 
-    individual identification of animals, species recognition, species distribution modeling and other 
-    real-world problems where reliable AI has to work alongside domain experts.
+Lukas is a Fulbright Visiting Scholar at MIT CSAIL. 
+He build computer vision and machine learning systems for biodiversity monitoring, 
+individual identification of animals, species recognition, species distribution modeling and other 
+real-world problems where reliable AI has to work alongside domain experts.
