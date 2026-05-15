@@ -1,0 +1,31 @@
+- name: Computer Vision
+  color: "#4C78A8"
+  darker_color: "#2F5B88"
+
+- name: Datasets & Benchmarks
+  color: "#F28E2B"
+  darker_color: "#C96A10"
+
+- name: Biodiversity Monitoring
+  color: "#4CAF50"
+  darker_color: "#2E7D32"
+
+- name: Scientific Workflows
+  color: "#26C6DA"
+  darker_color: "#00838F"
+
+- name: Environmental Sensing
+  color: "#42A5F5"
+  darker_color: "#1565C0"
+
+- name: Multimodal Modeling
+  color: "#5C6BC0"
+  darker_color: "#3949AB"
+
+- name: Interpretable & Reliable AI
+  color: "#FFA726"
+  darker_color: "#EF6C00"
+
+- name: Data-Limited Learning
+  color: "#AB47BC"
+  darker_color: "#6A1B9A"

@@ -1,0 +1,44 @@
+- name: Lauren Gillespie
+  photo: Lauren.jpg
+  info: Postdoc
+  website: https://gillespl.com/
+  twitter: https://x.com/leg2015
+  google_scholar: https://scholar.google.com/citations?user=zrVz47MAAAAJ&hl=en
+  description: >
+    Lauren is an MIT METEOR postdoctoral associate advised by Profs. Sara Beery and Sherrie Wang (LIDS + MechE). 
+    She will be joining the University of Michigan's School for Environment and Sustainability in Fall of 2026. 
+    Her research focuses on developing AI-integrated approaches for monitoring ecosystems at scale.
+
+- name: Shir Bar
+  photo: Shir.jpg
+  info: Postdoc
+  website: https://shir3bar.github.io
+  linkedin: https://www.linkedin.com/in/shir-bar/
+  google_scholar: https://scholar.google.com/citations?user=HlpcLSsAAAAJ
+  description: >
+    Shir is a postdoctoral fellow supported by the VATAT Marine Sciences Fellowship. 
+    She works at the interface of AI and ecology, studying how expert knowledge can be used more efficiently to build ecological datasets, 
+    especially for rare and hard-to-observe phenomena.
+
+- name: Lukas Picek
+  photo: Lukas.jpg
+  info: Postdoc
+  linkedin: https://www.linkedin.com/in/
+  google_scholar: https://scholar.google.com/citations?user=SBifPtYAAAAJ&hl=cs&oi=ao
+  website: https://picekl.github.io/research-web/
+  github: https://github.com/picekl
+  kaggle: https://www.kaggle.com/picekl
+  description: >
+    Lukas is a Fulbright Visiting Scholar at MIT CSAIL. 
+    He builds computer vision and machine learning systems for biodiversity monitoring, 
+    individual identification of animals, species recognition, species distribution modeling and other 
+    real-world problems where reliable AI has to work alongside domain experts.
+
+- name: Jonathan Sauder
+  photo: JonathanSauder.png
+  info: Postdoc
+  website: https://josauder.github.io/
+  google_scholar: https://scholar.google.com/citations?user=P1YcQw4AAAAJ
+  linkedin: https://www.linkedin.com/in/josauder/
+  description: >
+    Jonathan is a postdoctoral fellow supported by the Swiss National Science Foundation. His work focuses on scaling up ecological monitoring in challenging environments such as underwater ecosystems. He is also interested in uses of real-time 3D computer vision for rapid habitat mapping and studying animal behavior from video.

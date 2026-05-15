@@ -1,0 +1,29 @@
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+	<a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/" style="display: flex; align-items: center;"> 
+		<!--<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_MIT.svg" style="width: 75px; margin-right: 30px; margin-top: 25px" alt="MIT Logo"> -->
+		<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/beery_logo_current.png" style="width: 75px; margin-right: 30px; margin-top: 25px" alt="BeeryLab Logo"> 
+		<span class="header-title">BeeryLab</span>
+	</a>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar-collapse-1">
+	  {% assign current_url = page.url | replace:'index.html','' %}
+	  <ul class="nav navbar-nav navbar-right">
+		<li class="nav-item {% if current_url == '/' %}active {% endif %}"><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
+		<li class="nav-item {% if current_url == '/people/' or current_url == '/people' %}active {% endif %}"><a href="{{ site.url }}{{ site.baseurl }}/people">People</a></li>
+		<!--<li class="nav-item {% if current_url == '/research/' or current_url == '/research' %}active {% endif %}"><a href="{{ site.url }}{{ site.baseurl }}/research">Research</a></li>-->
+		<li class="nav-item {% if current_url == '/publications/' or current_url == '/publications' %}active {% endif %}"><a href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a></li>
+		<li class="nav-item {% if current_url == '/projects/' or current_url == '/projects' %}active {% endif %}"><a href="{{ site.url }}{{ site.baseurl }}/projects">Projects</a></li>
+		<li class="nav-item {% if current_url == '/outreach/' or current_url == '/outreach' %}active {% endif %}"><a href="{{ site.url }}{{ site.baseurl }}/outreach">Outreach</a></li>
+		<li class="nav-item {% if current_url == '/join-us/' or current_url == '/join-us' %}active {% endif %}"><a href="{{ site.url }}{{ site.baseurl }}/join-us">Join Us</a></li>
+	  </ul>
+	</div>
+  </div>
+</div>

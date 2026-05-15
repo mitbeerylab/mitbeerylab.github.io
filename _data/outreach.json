@@ -1,0 +1,333 @@
+{
+  "counts": {
+    "total": 32,
+    "talks": 17,
+    "teaching": 15
+  },
+  "items": [
+    {
+      "type": "teaching",
+      "type_label": "Teaching & Community Building",
+      "title": "6.S891/6.S893/12.S992 AI for Climate Action",
+      "publish_date": "2026-02-01",
+      "publish_date_display": "Feb 2026",
+      "external": "https://ai4climateaction.github.io/"
+    },
+    {
+      "type": "teaching",
+      "type_label": "Teaching & Community Building",
+      "title": "Workshop on Computer Vision Methods for Ecology",
+      "publish_date": "2026-01-01",
+      "publish_date_display": "Jan 2026",
+      "external": "http://cv4ecology.csail.mit.edu/"
+    },
+    {
+      "type": "teaching",
+      "type_label": "Teaching & Community Building",
+      "title": "Co-Instructing 1.091: Traveling Research Environmental Experiences",
+      "publish_date": "2026-01-01",
+      "publish_date_display": "Jan 2026",
+      "external": "https://cee.mit.edu/trex_1091/"
+    },
+    {
+      "type": "talk",
+      "type_label": "Talk",
+      "title": "How AI is unearthing hidden scientific knowledge",
+      "publish_date": "2025-09-24",
+      "publish_date_display": "24 Sep 2025",
+      "external": "https://www.ted.com/talks/sara_beery_how_ai_is_unearthing_hidden_scientific_knowledge",
+      "speaker": "Sara Beery",
+      "host": "TED Countdown and Bezos Earth Fund",
+      "speaker_label": "Speaker",
+      "host_label": "Host"
+    },
+    {
+      "type": "talk",
+      "type_label": "Talk",
+      "title": "PRISM: Expert-in-the-Loop Image Restoration for Complex Real-World Distortions",
+      "publish_date": "2025-09-16",
+      "publish_date_display": "16 Sep 2025",
+      "external": "https://www.noaa.gov/events/7th-noaa-ai-workshop-2025",
+      "speaker": "Rupa Kurinchi-Vendhan",
+      "host": "7th NOAA Workshop on Generative AI Applications in Environmental Sciences",
+      "speaker_label": "Speaker",
+      "host_label": "Host"
+    },
+    {
+      "type": "teaching",
+      "type_label": "Teaching & Community Building",
+      "title": "Co-Instructing 6.7960 - Deep Learning",
+      "publish_date": "2025-09-01",
+      "publish_date_display": "Sep 2025",
+      "external": "https://deeplearning6-7960.github.io/"
+    },
+    {
+      "type": "talk",
+      "type_label": "Talk",
+      "title": "Mapping Coral Reefs: Monitoring Shallow Water Reefs at Scale with Aerial Drones",
+      "publish_date": "2025-07-16",
+      "publish_date_display": "16 Jul 2025",
+      "external": "https://youtu.be/zaGLs7cFHGk",
+      "speaker": "Rupa Kurinchi-Vendhan",
+      "host": "Break Through Tech AI",
+      "speaker_label": "Speaker",
+      "host_label": "Host"
+    },
+    {
+      "type": "teaching",
+      "type_label": "Teaching & Community Building",
+      "title": "2025 AI upskilling workshop for former US/state environmental scientists",
+      "publish_date": "2025-05-01",
+      "publish_date_display": "May 2025",
+      "external": "https://cv4ecology.caltech.edu/ai-upskilling-workshop-2025.html"
+    },
+    {
+      "type": "talk",
+      "type_label": "Talk",
+      "title": "Mapping Coral Reefs: Monitoring Shallow Water Reefs at Scale with Aerial Drones",
+      "publish_date": "2025-04-22",
+      "publish_date_display": "22 Apr 2025",
+      "external": "https://youtu.be/iCxxmEXWksc",
+      "speaker": "Rupa Kurinchi-Vendhan",
+      "host": "MIT Ocean Engineering Seminar",
+      "speaker_label": "Speaker",
+      "host_label": "Host"
+    },
+    {
+      "type": "talk",
+      "type_label": "Talk",
+      "title": "Data Visualization, Data Splitting, and Avoiding Data Poisoning",
+      "publish_date": "2025-04-02",
+      "publish_date_display": "02 Apr 2025",
+      "external": "https://www.youtube.com/watch?v=mt66DOCuZSA",
+      "speaker": "Julia Chae",
+      "host": "CV4Ecology Workshop",
+      "speaker_label": "Speaker",
+      "host_label": "Host"
+    },
+    {
+      "type": "talk",
+      "type_label": "Talk",
+      "title": "Personalized Representation from Personalized Generation",
+      "publish_date": "2025-03-05",
+      "publish_date_display": "05 Mar 2025",
+      "external": "https://www.youtube.com/watch?v=vPBzjhdTTD8&list=PLLalUvky4CLJKDaiWCumhsJpHNDhZeVll&index=3&t=1s",
+      "speaker": "Shobhita Sundaram, Julia Chae",
+      "host": "Cohere For AI",
+      "speaker_label": "Speaker",
+      "host_label": "Host"
+    },
+    {
+      "type": "talk",
+      "type_label": "Talk",
+      "title": "Computer vision and biodiversity monitoring",
+      "publish_date": "2025-03-03",
+      "publish_date_display": "03 Mar 2025",
+      "external": "https://www.youtube.com/watch?v=Sc1QrscYBTA",
+      "speaker": "Timm Haucke, Sara Beery",
+      "host": "Ecological Forecasting Initiative",
+      "speaker_label": "Speaker",
+      "host_label": "Host"
+    },
+    {
+      "type": "teaching",
+      "type_label": "Teaching & Community Building",
+      "title": "6.S954 Computer Vision and Planetary Health",
+      "publish_date": "2025-02-01",
+      "publish_date_display": "Feb 2025",
+      "external": "https://cv4planet.github.io/"
+    },
+    {
+      "type": "teaching",
+      "type_label": "Teaching & Community Building",
+      "title": "Workshop on Computer Vision Methods for Ecology",
+      "publish_date": "2025-01-01",
+      "publish_date_display": "Jan 2025",
+      "external": "https://cv4ecology.caltech.edu/"
+    },
+    {
+      "type": "teaching",
+      "type_label": "Teaching & Community Building",
+      "title": "Co-Instructing Deep Learning for Ecology at the African Institute for Mathematical Sciences",
+      "publish_date": "2024-12-01",
+      "publish_date_display": "Dec 2024",
+      "external": "https://sites.google.com/aims.ac.za/dl4ecology-course/learning-outcomes/december-2024"
+    },
+    {
+      "type": "teaching",
+      "type_label": "Teaching & Community Building",
+      "title": "Co-Instructing 6.7960 - Deep Learning",
+      "publish_date": "2024-09-01",
+      "publish_date_display": "Sep 2024",
+      "external": "https://phillipi.github.io/6.7960/"
+    },
+    {
+      "type": "teaching",
+      "type_label": "Teaching & Community Building",
+      "title": "African Computer Vision Summer School (ACVSS)",
+      "publish_date": "2024-07-01",
+      "publish_date_display": "Jul 2024",
+      "external": "https://www.acvss.ai/past-editions/2024"
+    },
+    {
+      "type": "talk",
+      "type_label": "Talk",
+      "title": "Enabling Novel Scientific Discovery With Multimodal AI",
+      "publish_date": "2024-06-10",
+      "publish_date_display": "10 Jun 2024",
+      "external": "https://www.youtube.com/watch?v=Rat2gjz7HTA",
+      "speaker": "Sara Beery",
+      "host": "MIT Solve",
+      "speaker_label": "Speaker",
+      "host_label": "Host"
+    },
+    {
+      "type": "teaching",
+      "type_label": "Teaching & Community Building",
+      "title": "Co-Instructing 6.8300/6.8301: Advances in Computer Vision",
+      "publish_date": "2024-02-01",
+      "publish_date_display": "Feb 2024",
+      "external": "https://advances-in-vision.github.io/"
+    },
+    {
+      "type": "talk",
+      "type_label": "Talk",
+      "title": "Computing for Sustainability via Sustainable Computing",
+      "publish_date": "2024-01-31",
+      "publish_date_display": "31 Jan 2024",
+      "external": "https://www.youtube.com/watch?v=DPamuVXhtr8",
+      "speaker": "Sara Beery",
+      "host": "MIT Schwarzman College of Computing",
+      "speaker_label": "Speaker",
+      "host_label": "Host"
+    },
+    {
+      "type": "teaching",
+      "type_label": "Teaching & Community Building",
+      "title": "Imageomics Course",
+      "publish_date": "2024-01-01",
+      "publish_date_display": "2024",
+      "external": "https://imageomics.osu.edu/"
+    },
+    {
+      "type": "teaching",
+      "type_label": "Teaching & Community Building",
+      "title": "Co-Instructing 1.091: Traveling Research Environmental Experiences",
+      "publish_date": "2024-01-01",
+      "publish_date_display": "Jan 2024",
+      "external": "https://cee.mit.edu/trex_1091/"
+    },
+    {
+      "type": "talk",
+      "type_label": "Talk",
+      "title": "Generative AI Ethics and Society",
+      "publish_date": "2023-12-18",
+      "publish_date_display": "18 Dec 2023",
+      "external": "https://www.youtube.com/watch?v=hkgiUf2DmO8",
+      "speaker": "Sara Beery",
+      "host": "MIT",
+      "speaker_label": "Speaker",
+      "host_label": "Host"
+    },
+    {
+      "type": "talk",
+      "type_label": "Talk",
+      "title": "Unsupervised Domain Adaptation in the Real World",
+      "publish_date": "2023-12-15",
+      "publish_date_display": "15 Dec 2023",
+      "external": "https://neurips.cc/virtual/2023/80890",
+      "speaker": "Justin Kay",
+      "host": "Computational Sustainability Workshop at NeurIPS",
+      "speaker_label": "Speaker",
+      "host_label": "Host"
+    },
+    {
+      "type": "talk",
+      "type_label": "Talk",
+      "title": "Generalization vs. Specialization in Computer Vision for Ecology",
+      "publish_date": "2023-10-23",
+      "publish_date_display": "23 Oct 2023",
+      "external": "https://www.youtube.com/watch?v=z_mUH2I8E8s",
+      "speaker": "Sara Beery",
+      "host": "Harvard CRCS Seminar Series",
+      "speaker_label": "Speaker",
+      "host_label": "Host"
+    },
+    {
+      "type": "talk",
+      "type_label": "Talk",
+      "title": "Fair Evaluation of AI Systems",
+      "publish_date": "2023-10-04",
+      "publish_date_display": "04 Oct 2023",
+      "external": "https://www.youtube.com/watch?v=v_b4oXedBQk&t=1255s",
+      "speaker": "Justin Kay",
+      "host": "Seafood and Fisheries Emerging Technologies (SAFET)",
+      "speaker_label": "Speaker",
+      "host_label": "Host"
+    },
+    {
+      "type": "teaching",
+      "type_label": "Teaching & Community Building",
+      "title": "Co-Instructing 6.S898 - Deep Learning",
+      "publish_date": "2023-09-01",
+      "publish_date_display": "Sep 2023",
+      "external": "https://phillipi.github.io/6.s898/"
+    },
+    {
+      "type": "talk",
+      "type_label": "Talk",
+      "title": "Efficient Models and Speed vs. Accuracy",
+      "publish_date": "2023-08-29",
+      "publish_date_display": "29 Aug 2023",
+      "external": "https://youtu.be/UOoj2bqRt2g?si=WIiJlbtDpCpgOXlB&t=70",
+      "speaker": "Justin Kay",
+      "host": "CV4Ecology Summer Workshop",
+      "speaker_label": "Speaker",
+      "host_label": "Host"
+    },
+    {
+      "type": "talk",
+      "type_label": "Talk",
+      "title": "What's next? Rules of Thumb to Improve ML Results",
+      "publish_date": "2023-08-24",
+      "publish_date_display": "24 Aug 2023",
+      "external": "https://youtu.be/8RlGeT_q0lk?si=4xM7xuQ3wU3hzbxX&t=30",
+      "speaker": "Justin Kay",
+      "host": "CV4Ecology Summer Workshop",
+      "speaker_label": "Speaker",
+      "host_label": "Host"
+    },
+    {
+      "type": "teaching",
+      "type_label": "Teaching & Community Building",
+      "title": "Machine Learning Summer School (MLSS) Stellenbosch",
+      "publish_date": "2023-01-01",
+      "publish_date_display": "Jan 2023",
+      "external": "https://mlssafrica.com/"
+    },
+    {
+      "type": "talk",
+      "type_label": "Talk",
+      "title": "Auto Arborist: Towards Mapping Urban Forests Across North America",
+      "publish_date": "2022-12-01",
+      "publish_date_display": "01 Dec 2022",
+      "external": "https://www.youtube.com/watch?v=Ob7XfUPmKu4",
+      "speaker": "Sara Beery",
+      "host": "RISE Research Institutes of Sweden",
+      "speaker_label": "Speaker",
+      "host_label": "Host"
+    },
+    {
+      "type": "talk",
+      "type_label": "Talk",
+      "title": "Computer Vision for Global-Scale Biodiversity Monitoring",
+      "publish_date": "2022-10-12",
+      "publish_date_display": "12 Oct 2022",
+      "external": "https://www.youtube.com/watch?v=JaRK4OQonds",
+      "speaker": "Sara Beery",
+      "host": "African Academy of Sciences",
+      "speaker_label": "Speaker",
+      "host_label": "Host"
+    }
+  ]
+}

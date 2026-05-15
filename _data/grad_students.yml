@@ -1,0 +1,75 @@
+- name: Timm Haucke
+  photo: Timm.jpg
+  info: PhD Student
+  website: https://timm.haucke.xyz
+  twitter: https://twitter.com/timmhaucke
+  google_scholar: https://scholar.google.com/citations?user=AtT9n5MAAAAJ
+  description: >
+    Timm is a PhD student at MIT CSAIL and advised by Sara Beery. He is interested in multi-modal environmental 
+    and biodiversity monitoring, as well as 3D reconstruction of natural scenes to enable better animal 
+    population density estimation.
+
+- name: Julia Chae
+  photo: Julia.jpg
+  info: PhD Student
+  website: https://juliachae.github.io
+  twitter: https://twitter.com/juliachae_
+  google_scholar: https://scholar.google.com/citations?user=U16kRHoAAAAJ
+  description: >
+    Julia is an EECS PhD student at MIT CSAIL advised by Sara Beery and generously supported by the MIT 
+    Andrew and Erna Viterbi Graduate Fellowship. Her current project focuses on investigating how synthetic 
+    data can be used to enhance real-world vision models.
+
+- name: Neha Hulkund
+  photo: Neha.jpg
+  info: PhD Student
+  website: https://hulkund.github.io
+  twitter: https://twitter.com/NHulkund
+  google_scholar: https://scholar.google.com/citations?user=MzRVTNoAAAAJ
+  description: >
+    Neha is a PhD student at MIT CSAIL, advised by Prof. Sara Beery and supported by the MIT Jameel Clinic 
+    Fellowship and the NSF GRFP. She is interested in building reliable machine learning systems, 
+    balancing tradeoffs of performance, efficiency, privacy, and robustness.
+    
+- name: Justin Kay
+  photo: Justin.jpg
+  info: PhD Student
+  website: https://justinkay.github.io
+  twitter: https://twitter.com/__justinkay
+  google_scholar: https://scholar.google.com/citations?user=Qurq7foAAAAJ
+  description: >
+    Justin is a PhD student at MIT, advised by Sara Beery and supported by fellowships from MIT EECS and NSF. 
+    His research focuses on making computer vision and machine learning systems more deployable and informative 
+    for science and decision-making, particularly for environmental and climate applications.
+
+- name: Rupa Kurinchi-Vendhan
+  photo: Rupa.png
+  info: PhD Student
+  website: https://rupakv.com
+  twitter: https://twitter.com/RupaVendhan
+  google_scholar: https://scholar.google.com/citations?user=YY9cf7sAAAAJ
+  description: >
+    Rupa is a PhD student at MIT CSAIL, advised by Prof. Sara Beery and supported by the MIT Tina Chan Fellowship. 
+    Primarily, her research focuses on robust computer vision with remote sensing data and aerial imagery in 
+    order to address climate issues such as conservation and biodiversity monitoring.
+  
+- name: Elena Sierra
+  photo: Elena.jpg
+  info: PhD Student
+  website: https://elenagsierra.github.io/
+  linkedin: https://www.linkedin.com/in/elenagsierra/
+  google_scholar: https://scholar.google.com/citations?user=lbsq3E4AAAAJ&hl=en
+  description: >
+    Elena is an EECS PhD student at MIT advised by Sara Beery & Sherrie Wang and supported by the GEM Fellowship. 
+    Her research focuses on designing machine learning systems that make imperfect ecological data actionable, 
+    drawing on domain-specific knowledge to turn flawed data into reliable, decision-ready insight.
+
+- name: Antoine Salaün
+  photo: Antoine.jpg
+  info: PhD Student
+  website: https://www.antoinesalaun.com/
+  youtube: https://www.youtube.com/@AntoinevsScience
+  description: >
+    Antoine is an EECS PhD student at MIT CSAIL advised by Sara Beery and generously supported by the MIT 
+    Siddartha Banerjee Fellowship. His current project focuses on integrating ecological expertise in 
+    re-identification models for elephants through interpretable and editable architectures.

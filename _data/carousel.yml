@@ -1,0 +1,47 @@
+###### INSTRUCTIONS:
+# Required fields: title, description, image, link, date
+
+# - Date: format YYYY-MM-DD
+#     The order of the slides is determined by the date and will only show the newest 10 slides
+# - Image: should be in the /images/carouselpic/ directory
+# - Link: a valid URL to the paper
+# - Description: a short description of the slide (<1 sentence)
+# - Image: should be a rectangular image (short and wide)
+
+# Make sure to check how it looks using `jekyll serve`
+
+- title: Seeing Through the PRISM
+  description: Controllable & Compositional Image Restoration for Science
+  image: https://drive.google.com/thumbnail?id=1-grKKISFdNhU3_yok6Je2B5PG5wmswy8&sz=w1600
+  link: https://arxiv.org/pdf/2603.14151
+  date: '2026-04-24'
+- title: Deep Occupancy
+  description: Improving models of species occurrence using multiple modalities
+  image: https://drive.google.com/thumbnail?id=1QrLceB_dtc1VT-ifgaW_8vJxsVqQLzmE&sz=w1600
+  link: https://www.biorxiv.org/content/10.1101/2025.09.06.674602
+  date: '2026-02-17'
+- title: INQUIRE-Search
+  description: Natural-language search unlocks ecological discovery in biodiversity image databases.
+  image: https://drive.google.com/thumbnail?id=1mktuPmnLIzoOIOgE3qIjTg1oxcMRlOe1&sz=w1600
+  link: https://arxiv.org/pdf/2511.15656
+  date: '2026-01-01'
+- title: Consensus-Driven Active Model Selection
+  description: Identify the best model for a task with as few labels as possible.
+  image: https://drive.google.com/thumbnail?id=19spzgoloIEvBPxx95o-bQ5t0fi-8rewK&sz=w1600
+  link: https://arxiv.org/abs/2507.23771
+  date: '2025-10-20'
+- title: Align and Distill
+  description: Unifying and Improving Domain Adaptive Object Detection
+  image: https://drive.google.com/thumbnail?id=1e_TmKSOo-dyyyUdIqlUiRQqYMQUNCi94&sz=w1600
+  link: https://arxiv.org/abs/2403.12029
+  date: '2025-03-24'
+- title: Personalized Representation from Personalized Generation
+  description: Learning personalized visual representations from a few real images using synthetic data
+  image: https://drive.google.com/thumbnail?id=1SPj45yHpuACss-6tUks6XP_KBMpV0uL8&sz=w1600
+  link: https://arxiv.org/abs/2412.16156
+  date: '2024-12-20'
+- title: INQUIRE
+  description: A Benchmark for Natural World Image Retrieval
+  image: https://drive.google.com/thumbnail?id=1qfhPffBqdZaPkzBjtN6QJrgIZAxG3Zxg&sz=w1600
+  link: https://arxiv.org/abs/2411.02537
+  date: '2024-12-15'

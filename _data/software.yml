@@ -1,0 +1,150 @@
+# Synced from the public BeeryLab project Google Form via
+# `python3 scripts/update_projects_from_google_form.py`.
+#
+# - title: Project Title
+#   image: https://... (public image URL or local filename)
+#   description: Couple sentences about the project.
+#   publication_date: YYYY-MM-DD
+#   year: YYYY
+#   links:
+#     - label: "Website"
+#       url: url
+#     - label: "Demo"
+#       url: url
+#   themes:
+#     - Computer Vision
+#     - Datasets & Benchmarks
+#     - Biodiversity Monitoring
+#     - Scientific Workflows
+#     - Environmental Sensing
+#     - Multimodal Modeling
+#     - Interpretable & Reliable AI
+#     - Data-Limited Learning
+
+- title: Seeing Through the PRISM
+  image: https://drive.google.com/thumbnail?id=1p6ufSyGxEv6YJOmEbtOUfb3HMcRC98tv&sz=w400
+  description: PRISM is a controllable image restoration framework built for scientific and environmental imagery, where noise, blur, haze, weather, and other distortions often appear together. Instead of fixing one corruption at a time, PRISM learns to handle compound degradations jointly while still letting experts selectively remove only the artifacts they care about. The result is higher-fidelity restoration, stronger generalization to unseen distortion mixtures, and better downstream scientific performance across microscopy, ecology, remote sensing, and urban monitoring.
+  themes:
+  - Computer Vision
+  - Environmental Sensing
+  publication_date: '2026-04-24'
+  year: 2026
+  links:
+  - label: Website
+    url: https://prismrestore.github.io/
+  - label: Demo
+    url: https://github.com/RupaKurinchiVendhan/PRISM
+  - label: Code
+    url: https://github.com/RupaKurinchiVendhan/PRISM
+  - label: Data
+    url: https://drive.google.com/drive/u/1/folders/19VNlF2O3F5axlRoRSlIh-rFi5jmHmk0N
+  - label: Paper
+    url: https://arxiv.org/pdf/2603.14151
+- title: Deep Occupancy
+  image: https://drive.google.com/thumbnail?id=1DaRlwxaDBwou1S5GGHCL19jMBi2qH47q&sz=w400
+  description: Effective conservation and restoration of species is an increasingly urgent priority. To design management strategies that improve species success, we need a solid understanding of the habitat characteristics that support it. Occupancy models are statistical tools that ecologists use to model these relationships from data. Yet, current models represent habitats with coarse-scale environmental variables that fail to capture important microhabitat features. We show that these limitations can be addressed by incorporating AI-derived, multimodal habitat representations from overhead satellite imagery and ground-level camera-trap imagery. Across geography and species, these representations yield more accurate out-of-sample predictions than models based on conventional covariates alone, and combining satellite and ground-level views provides complementary gains. While AI-derived, multimodal habitat representations yield more expressive models, they also need more data to fit successfully.
+    We thus show experimentally how much data is needed in order to achieve substantial gains over conventional covariates. We further demonstrate the value of having access to continental-scale over local-scale datasets. Our approach provides a path toward microhabitat-aware and interpretable species-habitat models that support restoration planning and management decisions. We implement our method in an open-source Python package bridging AI and statistical ecology.
+  themes:
+  - Computer Vision
+  - Biodiversity Monitoring
+  - Multimodal Modeling
+  publication_date: '2026-02-17'
+  year: 2026
+  links:
+  - label: Code
+    url: https://github.com/timmh/mmocc
+  - label: Paper
+    url: https://www.biorxiv.org/content/10.1101/2025.09.06.674602
+- title: INQUIRE-Search
+  image: https://drive.google.com/thumbnail?id=1xQUXWxdMglqEKtvyxRw0hVOUvhQTtPkL&sz=w400
+  description: This paper introduces INQUIRE-Search, an open-source system that lets ecologists use natural-language queries to find hard-to-observe phenomena—like behavior, species interactions, phenology, and disturbance responses—inside enormous biodiversity image databases such as iNaturalist. By combining vision-language search with expert verification and exportable results, it makes rare ecological evidence far easier to surface at scale, delivering 3–25× higher retrieval efficiency than comparable manual workflows across five case studies and enabling downstream scientific analysis that was previously impractical.
+  themes:
+  - Scientific Workflows
+  publication_date: '2026-01-01'
+  year: 2026
+  links:
+  - label: Code
+    url: https://github.com/Beery-Lab/INQUIRE-Search/tree/main
+  - label: Paper
+    url: https://arxiv.org/pdf/2511.15656
+- title: Consensus-Driven Active Model Selection
+  image: https://drive.google.com/thumbnail?id=1upIQdbinJreLHP0a3Gi7-MdC_UxKJqJU&sz=w400
+  description: 'The widespread availability of off-the-shelf machine learning models poses a challenge: which model, of the many available candidates, should be chosen for a given data analysis task? This question of model selection is traditionally answered by collecting and annotating a val- idation dataset—a costly and time-intensive process. We propose a method for active model selection, using predic- tions from candidate models to prioritize the labeling of test data points that efficiently differentiate the best can- didate. Our method, CODA, performs consensus-driven active model selection by modeling relationships between classifiers, categories, and data points within a probabilis- tic framework. The framework uses the consensus and dis- agreement between models in the candidate pool to guide the label acquisition process, and Bayesian inference to up- date beliefs about which model is best as more information is collected. We validate our approach by curating a collection of 26
+    benchmark tasks capturing a range of model selection scenarios. CODA outperforms existing methods for active model selection significantly, reducing the annotation effort required to discover the best model by upwards of 70% compared to the previous state-of-the-art.'
+  themes:
+  - Computer Vision
+  - Biodiversity Monitoring
+  - Scientific Workflows
+  - Interpretable & Reliable AI
+  - Data-Limited Learning
+  publication_date: '2025-10-20'
+  year: 2025
+  links:
+  - label: Demo
+    url: https://huggingface.co/spaces/justinkay/coda
+  - label: Code
+    url: https://github.com/justinkay/coda/tree/main
+  - label: Paper
+    url: https://arxiv.org/abs/2507.23771
+- title: Align and Distill
+  image: https://drive.google.com/thumbnail?id=1u3sWQtZQJddFkjRWYjXH82mbTObOml2T&sz=w400
+  description: 'Object detectors often perform poorly on data that differs from their training set. Domainadaptive object detection (DAOD) methods have recently demonstrated strong results onaddressing this challenge. Unfortunately, we identify systemic benchmarking pitfalls thatcall past results into question and hamper further progress: (a) Overestimation of performance due to underpowered baselines, (b) Inconsistent implementation practices preventing transparent comparisons of methods, and (c) Lack of generality due to outdated backbones and lack of diversity in benchmarks. We address these problems by introducing: (1) A unified benchmarking and implementation framework, Align and Distill (ALDI), enablingcomparison of DAOD methods and supporting future development, (2) A fair and moderntraining and evaluation protocol for DAOD that addresses benchmarking pitfalls, (3) A newDAOD benchmark dataset, CFC-DAOD, increasing the diversity of available DAOD bench-marks, and (4) A new method,
+    ALDI++, that achieves state-of-the-art results by a largemargin. ALDI++ outperforms the previous state-of-the-art by +3.5 AP50 on Cityscapes→ Foggy Cityscapes, +5.7 AP50 on Sim10k → Cityscapes (where ours is the only methodto outperform a fair baseline), and +0.6 AP50 on CFC-DAOD. ALDI and ALDI++ arearchitecture-agnostic, setting a new state-of-the-art for YOLO and DETR-based DAOD aswell without additional hyperparameter tuning. Our framework, dataset, and methodoffer a critical reset for DAOD and provide a strong foundation for future research.'
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Environmental Sensing
+  - Interpretable & Reliable AI
+  - Data-Limited Learning
+  publication_date: '2025-03-24'
+  year: 2025
+  links:
+  - label: Website
+    url: https://aldi-daod.github.io/
+  - label: Code
+    url: https://github.com/justinkay/aldi
+  - label: Data
+    url: https://github.com/visipedia/caltech-fish-counting/tree/main/CFC-DAOD
+  - label: Paper
+    url: https://arxiv.org/abs/2403.12029
+- title: Personalized Representation from Personalized Generation
+  image: https://drive.google.com/thumbnail?id=13ufOCOTNqAutIQGFgTJGRLOkfrpVeUW3&sz=w400
+  description: Modern vision models excel at general purpose downstream tasks. It is unclear, however, how they may be used for personalized vision tasks, which are both fine-grained and data-scarce. Recent works have successfully applied synthetic data to general-purpose representation learning, while advances in T2I diffusion models have enabled the generation of personalized images from just a few real examples. Here, we explore a potential connection between these ideas, and formalize the challenge of using personalized synthetic data to learn personalized representations, which encode knowledge about an object of interest and may be flexibly applied to any downstream task relating to the target object. We introduce an evaluation suite for this challenge, including reformulations of two existing datasets and a novel dataset explicitly constructed for this purpose, and propose a contrastive learning approach that makes creative use of image generators. We show that our method improves
+    personalized representation learning for diverse downstream tasks, from recognition to segmentation, and analyze characteristics of image generation approaches that are key to this gain.
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Data-Limited Learning
+  publication_date: '2024-12-20'
+  year: 2024
+  links:
+  - label: Website
+    url: https://personalized-rep.github.io
+  - label: Code
+    url: https://github.com/ssundaram21/personalized-rep
+  - label: Data
+    url: https://huggingface.co/datasets/chaenayo/PODS
+  - label: Paper
+    url: https://arxiv.org/abs/2412.16156
+- title: INQUIRE
+  image: https://drive.google.com/thumbnail?id=1D0Z--TieTF8lUJGs8AAZ5G0pxvOE_aLK&sz=w400
+  description: Expert-level multi-modal models require expert-level benchmarks. We introduce 🔍 INQUIRE, a text-to-image retrieval benchmark of 250 challenging ecological queries that are comprehensively labeled over a new 5 million image subset of iNaturalist (iNat24). We hope that 🔍 INQUIRE will encourage the community to build next-generation image retrieval methods toward the goal of helping accelerate and automate scientific discovery.
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Multimodal Modeling
+  publication_date: '2024-12-15'
+  year: 2024
+  links:
+  - label: Website
+    url: https://inquire-benchmark.github.io/
+  - label: Demo
+    url: http://inquire-demo.csail.mit.edu/
+  - label: Code
+    url: https://github.com/inquire-benchmark/INQUIRE
+  - label: Data
+    url: https://huggingface.co/datasets/evendrow/INQUIRE-Rerank
+  - label: Paper
+    url: https://arxiv.org/abs/2411.02537

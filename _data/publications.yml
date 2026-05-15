@@ -1,0 +1,522 @@
+# Copy this template below and uncomment to add a new publication, and delete irrelevant fields.
+# Note that "doi" supercedes "preprint".
+
+# Minimum required fields: "title", "authors", "journal", "year", "url", "themes"
+#   For journal papers, be sure to at least include "doi"
+#   For preprints, be sure to at least include "preprint", "preprint_url"
+#   For conference papers, be sure to at least include "preprint_url"
+
+# For preprints, do NOT include the "doi" field, and DO include the "preprint" and related fields.
+# For conference papers, do NOT include "doi" OR "preprint" fields.
+#   DO include "url", "preprint_url", "preprint_site", "preprint_year".
+
+# - title: "title"
+#   authors: author1, author2, author3, ...
+#   journal: journal
+#   year: year
+#   url: url
+#   doi: doi
+#   preprint: preprint
+#   volume: volume
+#   issue: issue
+#   pages: page-page
+#   preprint_url: preprint_url
+#   preprint_year: preprint_year
+#   preprint_site: preprint_site
+#   themes:
+#     - Biodiversity Monitoring
+#     - Multimodal Environmental Sensing
+#     - Data-Limited Learning
+#     - Interpretable & Reliable AI
+#     - Scientific Workflows
+
+- title: 'Seeing Through the PRISM: Compound&Controllable Restoration of Scientific Images'
+  authors: Rupa Kurinchi-Vendhan, Pratyusha Sharma, Antonio Torralba, Sara Beery
+  journal: Unknown venue
+  year: 2026
+  url: https://www.semanticscholar.org/paper/9febdeafc2f5519c433c86795776ff40c6886c5a
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Environmental Sensing
+  - Interpretable & Reliable AI
+  - Data-Limited Learning
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Environmental Sensing
+  - Interpretable & Reliable AI
+  - Data-Limited Learning
+- title: 'Seeing Above and Below the Canopy: Modeling and Interpreting Species Occupancy with Multimodal Habitat Representations'
+  authors: T. Haucke, Lauren Harrell, Yunyi Shen, L. Klein, D. Rolnick, Lauren E. Gillespie, Sara Beery
+  journal: bioRxiv
+  year: 2026
+  url: https://doi.org/10.1101/2025.09.06.674602
+  themes:
+  - Biodiversity Monitoring
+  - Multimodal Modeling
+  - Interpretable & Reliable AI
+  doi: 10.1101/2025.09.06.674602
+  suggested_themes:
+  - Biodiversity Monitoring
+  - Multimodal Modeling
+  - Interpretable & Reliable AI
+- title: 'A Critical Look at Targeted Instruction Selection: Disentangling What Matters (and What Doesn''t)'
+  authors: Nihal V. Nayak, Paula Rodriguez-Diaz, Neha Hulkund, Sara Beery, David Alvarez-Melis
+  journal: Unknown venue
+  year: 2026
+  url: https://www.semanticscholar.org/paper/1c893e09169df0f0853ecf03aa016be9ce13997a
+  themes:
+  - Datasets & Benchmarks
+  - Data-Limited Learning
+  suggested_themes:
+  - Datasets & Benchmarks
+  - Data-Limited Learning
+- title: 'From snapshots to continuous estimates: Augmenting citizen science with computer vision for fish monitoring'
+  authors: Zhongqi Chen, T. Haucke, Sara Beery, Keven Bennett, Austin Powell, Lydia Zuehsow, Robert E. Vincent, Linda A. Deegan
+  journal: Remote Sensing in Ecology and Conservation
+  year: 2026
+  url: https://doi.org/10.1002/rse2.70055
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Interpretable & Reliable AI
+  doi: 10.1002/rse2.70055
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Interpretable & Reliable AI
+- title: 'Towards ‘digital ecology’: Advances in integrating artificial intelligence from data generation to ecological insight'
+  authors: D. Tuia, Sara Beery, Blair R. Costelloe, Ruth Y. Oliver, Nicolas Lecomte
+  journal: Methods in Ecology and Evolution
+  year: 2026
+  url: https://doi.org/10.1111/2041-210x.70243
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  doi: 10.1111/2041-210x.70243
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+- title: 'Deep in the Jungle: Towards Automating Chimpanzee Population Estimation'
+  authors: Tom Raynes, Otto Brookes, T. Haucke, Lukas Boesch, A. Crunchant, H. Kühl, Sara Beery, M. Mirmehdi, T. Burghardt
+  journal: arXiv.org
+  year: 2026
+  url: https://doi.org/10.48550/arxiv.2601.22917
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Scientific Workflows
+  - Interpretable & Reliable AI
+  doi: 10.48550/arxiv.2601.22917
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Scientific Workflows
+  - Interpretable & Reliable AI
+- title: 'Finer-Personalization Rank: Fine-Grained Retrieval Examines Identity Preservation for Personalized Generation'
+  authors: Connor Kilrain, David E. Carlyn, Julia Chae, Sara Beery, Wei-Lun Chao, Jianyang Gu
+  journal: arXiv.org
+  year: 2025
+  url: https://doi.org/10.48550/arxiv.2512.19026
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  doi: 10.48550/arxiv.2512.19026
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+- title: 'INQUIRE-Search: Interactive Discovery in Large-Scale Biodiversity Databases'
+  authors: Edward Vendrow, Julia Chae, Rupa Kurinchi-Vendhan, Isaac Eckert, Jazlynn Hall, Marta Jarzyna, Reymond J. Miyajima, Ruth Oliver, Laura J. Pollock, Lauren Shrack, Scott Yanco, Oisin Mac Aodha, Sara Beery
+  journal: Unknown venue
+  year: 2025
+  url: https://www.semanticscholar.org/paper/7465bd4fc0e4d6a7a1277f066a454ac9fd707381
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Scientific Workflows
+  - Interpretable & Reliable AI
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Scientific Workflows
+  - Interpretable & Reliable AI
+- title: Aggregation Hides Out-of-Distribution Generalization Failures from Spurious Correlations
+  authors: Olawale Salaudeen, Haoran Zhang, Kumail Alhamoud, Sara Beery, Marzyeh Ghassemi
+  journal: arXiv.org
+  year: 2025
+  url: https://doi.org/10.48550/arxiv.2510.24884
+  themes:
+  - Datasets & Benchmarks
+  - Interpretable & Reliable AI
+  - Data-Limited Learning
+  doi: 10.48550/arxiv.2510.24884
+  suggested_themes:
+  - Datasets & Benchmarks
+  - Interpretable & Reliable AI
+  - Data-Limited Learning
+- title: 'ReefNet: A Large scale, Taxonomically Enriched Dataset and Benchmark for Hard Coral Classification'
+  authors: Yahia Battach, Abdulwahab Felemban, F. Khan, Yousef A. Radwan, Xiang Li, Fabio Marchese, Sara Beery, Burton H. Jones, F. Benzoni, Mohamed Elhoseiny
+  journal: arXiv.org
+  year: 2025
+  url: https://doi.org/10.48550/arxiv.2510.16822
+  themes: []
+  doi: 10.48550/arxiv.2510.16822
+  suggested_themes: []
+- title: 'Essential tools but overlooked bias: Artificial intelligence and citizen science classification affect camera trap data'
+  authors: Simone Santoro, Santiago Gutiérrez-Zapata, Javier Calzada, Nuria Selva, Diego Marín‐Santos, Sara Beery, K. Brandis, Iñaki Fernández de Viana, P. Meek, A. Mortelliti, E. Revilla, Jon Paul Rodríguez, Lenka Straková, S. Tenan, Manuel Emilio Gegúndez
+  journal: Methods in Ecology and Evolution
+  year: 2025
+  url: https://doi.org/10.1111/2041-210x.70132
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Interpretable & Reliable AI
+  doi: 10.1111/2041-210x.70132
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Interpretable & Reliable AI
+- title: New frontiers in artificial intelligence for biodiversity research and conservation with multimodal language models
+  authors: Zhongqi Miao, Yuanhan Zhang, Zalan Fabian, Andres Hernandez Celis, Sara Beery, Chunyuan Li, Ziwei Liu, Amrita Gupta, Md Nasir, Wanhua Li, Jason Holmberg, Meredith S. Palmer, Kaitlyn M Gaynor, Pablo Arbeláez, Pengce Wang, R. Dodhia, J. Ferres
+  journal: Methods in Ecology and Evolution
+  year: 2025
+  url: https://doi.org/10.1111/2041-210x.70120
+  themes:
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Multimodal Modeling
+  - Interpretable & Reliable AI
+  doi: 10.1111/2041-210x.70120
+  suggested_themes:
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Multimodal Modeling
+  - Interpretable & Reliable AI
+- title: Consensus-Driven Active Model Selection
+  authors: J. Kay, Grant Van Horn, Subhransu Maji, Daniel Sheldon, Sara Beery
+  journal: arXiv.org
+  year: 2025
+  url: https://doi.org/10.48550/arxiv.2507.23771
+  themes:
+  - Datasets & Benchmarks
+  - Scientific Workflows
+  doi: 10.48550/arxiv.2507.23771
+  suggested_themes:
+  - Datasets & Benchmarks
+  - Scientific Workflows
+- title: 'No species left behind: borrowing strength to map data-deficient species.'
+  authors: Shubhi Sharma, Kevin Winner, Laura J. Pollock, James T. Thorson, J. Mäkinen, C. Merow, Eric J. Pedersen, Kalkidan F. Chefira, Julia M Portmann, Fabiola Iannarilli, Sara Beery, Riccardo de Lutio, W. Jetz
+  journal: Trends in Ecology & Evolution
+  year: 2025
+  url: https://doi.org/10.1016/j.tree.2025.04.010
+  themes:
+  - Biodiversity Monitoring
+  doi: 10.1016/j.tree.2025.04.010
+  suggested_themes:
+  - Biodiversity Monitoring
+- title: The impact of strong activity disruption on building energetics
+  authors: Yu-Hsuan Hsu, Sara Beery, Christopher P. Kempes, Mingzhen Lu, Serguei Saavedra
+  journal: Unknown venue
+  year: 2025
+  url: https://www.semanticscholar.org/paper/05783452b9f5af2d8fdd1b139155c7e5056d3912
+  themes: []
+  suggested_themes: []
+- title: 'DataS^3: Dataset Subset Selection for Specialization'
+  authors: Neha Hulkund, Alaa Maalouf, Levi Cai, Daniel Yang, Tsun-Hsuan Wang, Abigail O'Neil, T. Haucke, Sandeep Mukherjee, V. Ramaswamy, Judy Shen, Gabriel Tseng, Mike Walmsley, Daniela Rus, Ken Goldberg, Hannah Kerner, Irene Y. Chen, Y. Girdhar, Sara Beery
+  journal: arXiv.org
+  year: 2025
+  url: https://doi.org/10.48550/arxiv.2504.16277
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Data-Limited Learning
+  doi: 10.48550/arxiv.2504.16277
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Data-Limited Learning
+- title: Conservation changed but not divided.
+  authors: Sam A. Reynolds, Sara Beery, N. Burgess, Mark A Burgman, S. Butchart, S. J. Cooke, David A. Coomes, F. Danielsen, Enrico Di Minin, A. P. Durán, A. Hinsley, S. Jaffer, Julia P. G. Jones, Binbin V. Li, Anil Madhavapeddy, Lloyd S Peck, N. Pettorelli, Jon Paul Rodríguez, William J. Sutherland
+  journal: Trends in Ecology & Evolution
+  year: 2025
+  url: https://doi.org/10.1016/j.tree.2025.04.002
+  themes:
+  - Biodiversity Monitoring
+  doi: 10.1016/j.tree.2025.04.002
+  suggested_themes:
+  - Biodiversity Monitoring
+- title: Pairwise Matching of Intermediate Representations for Fine-grained Explainability
+  authors: Lauren Shrack, T. Haucke, Antoine Salaun, Arjun Subramonian, Sara Beery
+  journal: arXiv.org
+  year: 2025
+  url: https://doi.org/10.48550/arxiv.2503.22881
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Interpretable & Reliable AI
+  doi: 10.48550/arxiv.2503.22881
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Interpretable & Reliable AI
+- title: 'Open-Insect: Benchmarking Open-Set Recognition of Novel Species in Biodiversity Monitoring'
+  authors: Yuyang Chen, Nico Lang, B. Schmidt, Aditya Jain, Yves Basset, Sara Beery, Maxim Larriv'ee, David Rolnick
+  journal: Unknown venue
+  year: 2025
+  url: https://www.semanticscholar.org/paper/2f68b787461eb35e691402cc9c2250ce5ff4ef1b
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+- title: Harnessing artificial intelligence to fill global shortfalls in biodiversity knowledge
+  authors: Laura J. Pollock, J. Kitzes, Sara Beery, Kaitlyn M Gaynor, Marta A. Jarzyna, Oisin Mac Aodha, Bernd Meyer, David Rolnick, Graham Taylor, D. Tuia, Tanya Berger-Wolf
+  journal: Nature Reviews Biodiversity
+  year: 2025
+  url: https://doi.org/10.1038/s44358-025-00022-3
+  themes:
+  - Biodiversity Monitoring
+  doi: 10.1038/s44358-025-00022-3
+  suggested_themes:
+  - Biodiversity Monitoring
+- title: Counting Fish with Temporal Representations of Sonar Video
+  authors: Kai Van Brunt, J. Kay, T. Haucke, Pietro Perona, Grant Van Horn, Sara Beery
+  journal: arXiv.org
+  year: 2025
+  url: https://doi.org/10.48550/arxiv.2502.05129
+  themes:
+  - Computer Vision
+  - Biodiversity Monitoring
+  - Environmental Sensing
+  doi: 10.48550/arxiv.2502.05129
+  suggested_themes:
+  - Computer Vision
+  - Biodiversity Monitoring
+  - Environmental Sensing
+- title: Do Large Language Model Benchmarks Test Reliability?
+  authors: Joshua Vendrow, Edward Vendrow, Sara Beery, Aleksander Madry
+  journal: arXiv.org
+  year: 2025
+  url: https://doi.org/10.48550/arxiv.2502.03461
+  themes:
+  - Datasets & Benchmarks
+  - Interpretable & Reliable AI
+  doi: 10.48550/arxiv.2502.03461
+  suggested_themes:
+  - Datasets & Benchmarks
+  - Interpretable & Reliable AI
+- title: Generative AI as a tool to accelerate the field of ecology
+  authors: K. Rafiq, Sara Beery, Meredith S. Palmer, zaid. harchaoui, B. Abrahms
+  journal: Nature Ecology & Evolution
+  year: 2025
+  url: https://doi.org/10.1038/s41559-024-02623-1
+  themes:
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  doi: 10.1038/s41559-024-02623-1
+  suggested_themes:
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+- title: 'INQUIRE-Search: A Framework for Interactive Discovery in Large-Scale Biodiversity Databases'
+  authors: Edward Vendrow, Julia Chae, Rupa Kurinchi-Vendhan, Isaac Eckert, Jazlynn Hall, Marta Jarzyna, Reymond J. Miyajima, Ruth Oliver, Laura J. Pollock, Lauren Schrack, Scott Yanco, Oisin Mac Aodha, Sara Beery
+  journal: arXiv.org
+  year: 2025
+  url: https://doi.org/10.48550/arxiv.2511.15656
+  themes:
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  doi: 10.48550/arxiv.2511.15656
+  suggested_themes:
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+- title: Personalized Representation from Personalized Generation
+  authors: Shobhita Sundaram, Julia Chae, Yonglong Tian, Sara Beery, Phillip Isola
+  journal: International Conference on Learning Representations
+  year: 2025
+  url: https://www.semanticscholar.org/paper/ba7989725a88df40f874764828b6c2c37e2184e4
+  themes: []
+  suggested_themes: []
+- title: TACO Vision Models Can Be Efficiently Specialized via Few-Shot Task-Aware Compression
+  authors: Denis Kuznedelev, Soroush Tabesh, Kimia Noorbakhsh, Elias Frantar, Sara Beery, Eldar Kurtic, Dan Alistarh
+  journal: Trans. Mach. Learn. Res.
+  year: 2025
+  url: https://www.semanticscholar.org/paper/39a722d27959221fb35b3993d45b266895630fea
+  themes:
+  - Data-Limited Learning
+  suggested_themes:
+  - Data-Limited Learning
+- title: Personalized Representation from Personalized Generation
+  authors: Shobhita Sundaram, Julia Chae, Yonglong Tian, Sara Beery, Phillip Isola
+  journal: arXiv.org
+  year: 2024
+  url: https://doi.org/10.48550/arxiv.2412.16156
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  doi: 10.48550/arxiv.2412.16156
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+- title: 'The potential for AI to revolutionize conservation: a horizon scan.'
+  authors: Sam A. Reynolds, Sara Beery, Neil D. Burgess, Mark A Burgman, S. Butchart, S. Cooke, David A. Coomes, F. Danielsen, E. Di Minin, A. P. Durán, F. Gassert, A. Hinsley, S. Jaffer, Julia P. G. Jones, Binbin V. Li, Oisin Mac Aodha, Anil Madhavapeddy, Stephanie O’Donnell, W. Oxbury, L. Peck, N. Pettorelli, Jon Paul Rodríguez, E. Shuckburgh, Bernardo Strassburg, Hiromi Yamashita, Zhongqi Miao, W. Sutherland
+  journal: Trends in Ecology & Evolution
+  year: 2024
+  url: https://doi.org/10.1016/j.tree.2024.11.013
+  themes:
+  - Biodiversity Monitoring
+  - Multimodal Modeling
+  doi: 10.1016/j.tree.2024.11.013
+  suggested_themes:
+  - Biodiversity Monitoring
+  - Multimodal Modeling
+- title: Adapting the re-ID challenge for static sensors
+  authors: Avirath Sundaresan, Jason R. Parham, Jonathan P. Crall, Rosemary Warungu, Timothy Muthami, Margaret Mwangi, Jackson Miliko, Jason Holmberg, Tanya Y. Berger-Wolf, Daniel I. Rubenstein, Charles V. Stewart, Sara Beery
+  journal: IET Computer Vision
+  year: 2024
+  url: https://doi.org/10.48550/arxiv.2412.00290
+  themes:
+  - Computer Vision
+  - Biodiversity Monitoring
+  doi: 10.48550/arxiv.2412.00290
+  suggested_themes:
+  - Computer Vision
+  - Biodiversity Monitoring
+- title: 'To crop or not to crop: Comparing whole-image and cropped classification on a large dataset of camera trap images'
+  authors: Tomer Gadot, Ștefan Istrate, Hyungwon Kim, Dan Morris, Sara Beery, Tanya Birch, J. Ahumada
+  journal: IET Computer Vision
+  year: 2024
+  url: https://doi.org/10.1049/cvi2.12318
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Scientific Workflows
+  doi: 10.1049/cvi2.12318
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Scientific Workflows
+- title: 'INQUIRE: A Natural World Text-to-Image Retrieval Benchmark'
+  authors: Edward Vendrow, Omiros Pantazis, Alexander Shepard, G. Brostow, Kate E. Jones, Oisin Mac Aodha, Sara Beery, Grant Van Horn
+  journal: Neural Information Processing Systems
+  year: 2024
+  url: https://doi.org/10.48550/arxiv.2411.02537
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Multimodal Modeling
+  doi: 10.48550/arxiv.2411.02537
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Multimodal Modeling
+- title: 'Tree-D Fusion: Simulation-Ready Tree Dataset from Single Images with Diffusion Priors'
+  authors: Jae Joong Lee, Bosheng Li, Sara Beery, Jonathan Huang, Songlin Fei, Raymond A. Yeh, Bedrich Benes
+  journal: European Conference on Computer Vision
+  year: 2024
+  url: https://doi.org/10.48550/arxiv.2407.10330
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  doi: 10.48550/arxiv.2407.10330
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+- title: Are They the Same Picture? Adapting Concept Bottleneck Models for Human-AI Collaboration in Image Retrieval
+  authors: Vaibhav Balloli, Sara Beery, Elizabeth Bondi-Kelly
+  journal: International Joint Conference on Artificial Intelligence
+  year: 2024
+  url: https://doi.org/10.24963/ijcai.2024/866
+  themes:
+  - Computer Vision
+  - Biodiversity Monitoring
+  - Scientific Workflows
+  - Interpretable & Reliable AI
+  doi: 10.24963/ijcai.2024/866
+  suggested_themes:
+  - Computer Vision
+  - Biodiversity Monitoring
+  - Scientific Workflows
+  - Interpretable & Reliable AI
+- title: Monitoring Social Insect Activity with Minimal Human Supervision
+  authors: Tarun Sharma, Julian M. Wagner, Sara Beery, W. Dickson, Michael H. Dickinson, Joseph Parker
+  journal: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)
+  year: 2024
+  url: https://doi.org/10.1109/cvprw63382.2024.00131
+  themes:
+  - Computer Vision
+  - Biodiversity Monitoring
+  doi: 10.1109/cvprw63382.2024.00131
+  suggested_themes:
+  - Computer Vision
+  - Biodiversity Monitoring
+- title: Visually Consistent Hierarchical Image Classification
+  authors: Seulki Park, Youren Zhang, Stella X. Yu, Sara Beery, Jonathan Huang
+  journal: International Conference on Learning Representations
+  year: 2024
+  url: https://www.semanticscholar.org/paper/d9bdabb0f54d15f94fb3cdcb7e5930685a37ca5c
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Data-Limited Learning
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Data-Limited Learning
+- title: Application-Driven Innovation in Machine Learning
+  authors: D. Rolnick, Alán Aspuru-Guzik, Sara Beery, B. Dilkina, P. Donti, Marzyeh Ghassemi, Hannah Kerner, C. Monteleoni, Esther Rolf, Milind Tambe, Adam White
+  journal: International Conference on Machine Learning
+  year: 2024
+  url: https://doi.org/10.48550/arxiv.2403.17381
+  themes: []
+  doi: 10.48550/arxiv.2403.17381
+  suggested_themes: []
+- title: 'Align and Distill: Unifying and Improving Domain Adaptive Object Detection'
+  authors: J. Kay, T. Haucke, Suzanne Stathatos, Siqi Deng, Erik Young, Pietro Perona, Sara Beery, Grant Van Horn
+  journal: Trans. Mach. Learn. Res.
+  year: 2024
+  url: https://doi.org/10.48550/arxiv.2403.12029
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  doi: 10.48550/arxiv.2403.12029
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+- title: 'Monitoring urban trees across the world: report from the Urban Trees Ecophysiology Network (UTEN) inaugural workshop'
+  authors: Marylou Mantova, Daniel M Johnson, Jonathan Antebi, Sara Beery, M. Blumstein, Ron Cohen, Felipe Defavari, Xue Feng, Erez Feuer, Jess Gersony, W. Hammond, Grace P. John, Renée M. Marchin, Y. Mau, Bill Miller, Clara Nibbelink, A. Ossola, A. Paquette, Tim Rademacher, K. Rissanen, Einat Shemesh-Mayer, R. Skelton, J. Wilkening, Y. Preisler
+  journal: New Phytologist
+  year: 2024
+  url: https://doi.org/10.1111/nph.19621
+  themes: []
+  doi: 10.1111/nph.19621
+  suggested_themes: []
+- title: A landmark environmental law looks ahead
+  authors: Robert L. Fischman, J. B. Ruhl, B. Forester, Tanya M. Lama, Marty Kardos, Grethel Aguilar Rojas, Nicholas A. Robinson, Patrick D. Shirey, Gary A. Lamberti, Amy W. Ando, Stephen Palumbi, Michael Wara, Mark W. Schwartz, Matthew A. Williamson, Tanya Y. Berger-Wolf, Sara Beery, David Rolnick, Justin Kitzes, David Thau, D. Tuia, Daniel I. Rubenstein, Caleb R. Hickman, Julie Thorstenson, G. Kaebnick, James P. Collins, Athmeya Jayaram, Thomas Deleuil, Ying Zhao
+  journal: Science
+  year: 2023
+  url: https://doi.org/10.1126/science.adn3245
+  themes: []
+  doi: 10.1126/science.adn3245
+  suggested_themes: []
