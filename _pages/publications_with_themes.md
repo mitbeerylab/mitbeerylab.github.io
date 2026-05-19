@@ -3,7 +3,7 @@ title: "BeeryLab • Publications"
 layout: publications
 excerpt: "Publications."
 sitemap: false
-permalink: /publications
+permalink: /publications_themes
 ---
 <!-- Custom CSS -->
 <style>
