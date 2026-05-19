@@ -30,7 +30,7 @@ permalink: /publications
 <!-- START OF PAGE -->
 # Publications
 
-(Last updated {{ site.data.publications_meta.updated }}.
+List of publications involving the BeeryLab (Last updated {{ site.data.publications_meta.updated }}.
 See <a href="https://scholar.google.com/citations?user=Hbr4c10AAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a> for most up-to-date publications)
 
 ---
