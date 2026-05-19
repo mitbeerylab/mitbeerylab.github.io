@@ -40,7 +40,7 @@ permalink: /projects
 
 # Projects
 
-Projects led by students and postdocs in the group with summaries and links to code, data, demos, and papers.
+Led by students and postdocs in the group with summaries and links to code, data, demos, and papers.
 <p>
   {% assign themes = site.data.research_themes %}
   {% assign theme_aliases = site.data.research_theme_aliases %}
