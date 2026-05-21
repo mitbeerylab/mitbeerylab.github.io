@@ -31,9 +31,7 @@ permalink: /publications
 # Publications
 
 Comprehensive list from Semantic Scholar (Last updated {{ site.data.publications_meta.updated }}.
-See <a href="https://scholar.google.com/citations?user=Hbr4c10AAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a> for most up-to-date publications)
-
-More information on BeeryLab led projects can be found on the [Projects page]({{ site.url }}{{ site.baseurl }}/projects).
+See <a href="https://scholar.google.com/citations?user=Hbr4c10AAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a> for most up-to-date publications). More information on BeeryLab led projects can be found on the [Projects page]({{ site.url }}{{ site.baseurl }}/projects).
 ---
 
 <!-- Display all publications -->
