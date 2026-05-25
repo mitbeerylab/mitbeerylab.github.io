@@ -42,15 +42,9 @@
   journal: bioRxiv
   year: 2026
   url: https://doi.org/10.1101/2025.09.06.674602
-  themes:
-  - Biodiversity Monitoring
-  - Multimodal Modeling
-  - Interpretable & Reliable AI
+  themes: []
   doi: 10.1101/2025.09.06.674602
-  suggested_themes:
-  - Biodiversity Monitoring
-  - Multimodal Modeling
-  - Interpretable & Reliable AI
+  suggested_themes: []
 - title: 'A Critical Look at Targeted Instruction Selection: Disentangling What Matters (and What Doesn''t)'
   authors: Nihal V. Nayak, Paula Rodriguez-Diaz, Neha Hulkund, Sara Beery, David Alvarez-Melis
   journal: Unknown venue
