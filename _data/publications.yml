@@ -54,15 +54,9 @@
   journal: bioRxiv
   year: 2026
   url: https://doi.org/10.1101/2025.09.06.674602
-  themes:
-  - Biodiversity Monitoring
-  - Multimodal Modeling
-  - Interpretable & Reliable AI
+  themes: []
   doi: 10.1101/2025.09.06.674602
-  suggested_themes:
-  - Biodiversity Monitoring
-  - Multimodal Modeling
-  - Interpretable & Reliable AI
+  suggested_themes: []
 - title: 'A Critical Look at Targeted Instruction Selection: Disentangling What Matters (and What Doesn''t)'
   authors: Nihal V. Nayak, Paula Rodriguez-Diaz, Neha Hulkund, Sara Beery, David Alvarez-Melis
   journal: Unknown venue
@@ -75,17 +69,9 @@
   journal: Remote Sensing in Ecology and Conservation
   year: 2026
   url: https://doi.org/10.1002/rse2.70055
-  themes:
-  - Computer Vision
-  - Datasets & Benchmarks
-  - Biodiversity Monitoring
-  - Interpretable & Reliable AI
+  themes: []
   doi: 10.1002/rse2.70055
-  suggested_themes:
-  - Computer Vision
-  - Datasets & Benchmarks
-  - Biodiversity Monitoring
-  - Interpretable & Reliable AI
+  suggested_themes: []
 - title: 'Towards ‘digital ecology’: Advances in integrating artificial intelligence from data generation to ecological insight'
   authors: D. Tuia, Sara Beery, Blair R. Costelloe, Ruth Y. Oliver, Nicolas Lecomte
   journal: Methods in Ecology and Evolution
