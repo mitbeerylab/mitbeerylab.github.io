@@ -54,42 +54,50 @@
   journal: bioRxiv
   year: 2026
   url: https://doi.org/10.1101/2025.09.06.674602
-  themes:
-  - Computer Vision
-  - Biodiversity Monitoring
-  - Environmental Sensing
-  - Multimodal Modeling
-  - Interpretable & Reliable AI
+  themes: []
   doi: 10.1101/2025.09.06.674602
-  suggested_themes:
-  - Computer Vision
-  - Biodiversity Monitoring
-  - Environmental Sensing
-  - Multimodal Modeling
-  - Interpretable & Reliable AI
+  suggested_themes: []
 - title: 'A Critical Look at Targeted Instruction Selection: Disentangling What Matters (and What Doesn''t)'
   authors: Nihal V. Nayak, Paula Rodriguez-Diaz, Neha Hulkund, Sara Beery, David Alvarez-Melis
   journal: Unknown venue
   year: 2026
   url: https://www.semanticscholar.org/paper/1c893e09169df0f0853ecf03aa016be9ce13997a
-  themes: []
-  suggested_themes: []
+  themes:
+  - Datasets & Benchmarks
+  - Data-Limited Learning
+  suggested_themes:
+  - Datasets & Benchmarks
+  - Data-Limited Learning
 - title: 'From snapshots to continuous estimates: Augmenting citizen science with computer vision for fish monitoring'
   authors: Zhongqi Chen, T. Haucke, Sara Beery, Keven Bennett, Austin Powell, Lydia Zuehsow, Robert E. Vincent, Linda A. Deegan
   journal: Remote Sensing in Ecology and Conservation
   year: 2026
   url: https://doi.org/10.1002/rse2.70055
-  themes: []
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Interpretable & Reliable AI
   doi: 10.1002/rse2.70055
-  suggested_themes: []
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Interpretable & Reliable AI
 - title: 'Towards ‘digital ecology’: Advances in integrating artificial intelligence from data generation to ecological insight'
   authors: D. Tuia, Sara Beery, Blair R. Costelloe, Ruth Y. Oliver, Nicolas Lecomte
   journal: Methods in Ecology and Evolution
   year: 2026
   url: https://doi.org/10.1111/2041-210x.70243
-  themes: []
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
   doi: 10.1111/2041-210x.70243
-  suggested_themes: []
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
 - title: 'Deep in the Jungle: Towards Automating Chimpanzee Population Estimation'
   authors: Tom Raynes, Otto Brookes, T. Haucke, Lukas Boesch, A. Crunchant, H. Kühl, Sara Beery, M. Mirmehdi, T. Burghardt
   journal: arXiv.org
@@ -103,16 +111,30 @@
   journal: arXiv.org
   year: 2025
   url: https://doi.org/10.48550/arxiv.2512.19026
-  themes: []
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
   doi: 10.48550/arxiv.2512.19026
-  suggested_themes: []
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
 - title: 'INQUIRE-Search: Interactive Discovery in Large-Scale Biodiversity Databases'
   authors: Edward Vendrow, Julia Chae, Rupa Kurinchi-Vendhan, Isaac Eckert, Jazlynn Hall, Marta Jarzyna, Reymond J. Miyajima, Ruth Oliver, Laura J. Pollock, Lauren Shrack, Scott Yanco, Oisin Mac Aodha, Sara Beery
   journal: Unknown venue
   year: 2025
   url: https://www.semanticscholar.org/paper/7465bd4fc0e4d6a7a1277f066a454ac9fd707381
-  themes: []
-  suggested_themes: []
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Scientific Workflows
+  - Interpretable & Reliable AI
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Scientific Workflows
+  - Interpretable & Reliable AI
 - title: Aggregation Hides Out-of-Distribution Generalization Failures from Spurious Correlations
   authors: Olawale Salaudeen, Haoran Zhang, Kumail Alhamoud, Sara Beery, Marzyeh Ghassemi
   journal: arXiv.org
@@ -126,9 +148,11 @@
   journal: arXiv.org
   year: 2025
   url: https://doi.org/10.48550/arxiv.2510.16822
-  themes: []
+  themes:
+  - Datasets & Benchmarks
   doi: 10.48550/arxiv.2510.16822
-  suggested_themes: []
+  suggested_themes:
+  - Datasets & Benchmarks
 - title: 'Essential tools but overlooked bias: Artificial intelligence and citizen science classification affect camera trap data'
   authors: Simone Santoro, Santiago Gutiérrez-Zapata, Javier Calzada, Nuria Selva, Diego Marín‐Santos, Sara Beery, K. Brandis, Iñaki Fernández de Viana, P. Meek, A. Mortelliti, E. Revilla, Jon Paul Rodríguez, Lenka Straková, S. Tenan, Manuel Emilio Gegúndez
   journal: Methods in Ecology and Evolution
