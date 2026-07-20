@@ -54,20 +54,26 @@
   journal: bioRxiv
   year: 2026
   url: https://doi.org/10.1101/2025.09.06.674602
-  themes: []
+  themes:
+  - Computer Vision
+  - Biodiversity Monitoring
+  - Environmental Sensing
+  - Multimodal Modeling
+  - Interpretable & Reliable AI
   doi: 10.1101/2025.09.06.674602
-  suggested_themes: []
+  suggested_themes:
+  - Computer Vision
+  - Biodiversity Monitoring
+  - Environmental Sensing
+  - Multimodal Modeling
+  - Interpretable & Reliable AI
 - title: 'A Critical Look at Targeted Instruction Selection: Disentangling What Matters (and What Doesn''t)'
   authors: Nihal V. Nayak, Paula Rodriguez-Diaz, Neha Hulkund, Sara Beery, David Alvarez-Melis
   journal: Unknown venue
   year: 2026
   url: https://www.semanticscholar.org/paper/1c893e09169df0f0853ecf03aa016be9ce13997a
-  themes:
-  - Datasets & Benchmarks
-  - Data-Limited Learning
-  suggested_themes:
-  - Datasets & Benchmarks
-  - Data-Limited Learning
+  themes: []
+  suggested_themes: []
 - title: 'From snapshots to continuous estimates: Augmenting citizen science with computer vision for fish monitoring'
   authors: Zhongqi Chen, T. Haucke, Sara Beery, Keven Bennett, Austin Powell, Lydia Zuehsow, Robert E. Vincent, Linda A. Deegan
   journal: Remote Sensing in Ecology and Conservation
@@ -89,35 +95,35 @@
   journal: Methods in Ecology and Evolution
   year: 2026
   url: https://doi.org/10.1111/2041-210x.70243
-  themes:
-  - Computer Vision
-  - Datasets & Benchmarks
-  - Biodiversity Monitoring
+  themes: []
   doi: 10.1111/2041-210x.70243
-  suggested_themes:
-  - Computer Vision
-  - Datasets & Benchmarks
-  - Biodiversity Monitoring
+  suggested_themes: []
 - title: 'Deep in the Jungle: Towards Automating Chimpanzee Population Estimation'
   authors: Tom Raynes, Otto Brookes, T. Haucke, Lukas Boesch, A. Crunchant, H. Kühl, Sara Beery, M. Mirmehdi, T. Burghardt
   journal: arXiv.org
   year: 2026
   url: https://doi.org/10.48550/arxiv.2601.22917
-  themes: []
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Scientific Workflows
+  - Interpretable & Reliable AI
   doi: 10.48550/arxiv.2601.22917
-  suggested_themes: []
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Scientific Workflows
+  - Interpretable & Reliable AI
 - title: 'Finer-Personalization Rank: Fine-Grained Retrieval Examines Identity Preservation for Personalized Generation'
   authors: Connor Kilrain, David E. Carlyn, Julia Chae, Sara Beery, Wei-Lun Chao, Jianyang Gu
   journal: arXiv.org
   year: 2025
   url: https://doi.org/10.48550/arxiv.2512.19026
-  themes:
-  - Computer Vision
-  - Datasets & Benchmarks
+  themes: []
   doi: 10.48550/arxiv.2512.19026
-  suggested_themes:
-  - Computer Vision
-  - Datasets & Benchmarks
+  suggested_themes: []
 - title: 'INQUIRE-Search: Interactive Discovery in Large-Scale Biodiversity Databases'
   authors: Edward Vendrow, Julia Chae, Rupa Kurinchi-Vendhan, Isaac Eckert, Jazlynn Hall, Marta Jarzyna, Reymond J. Miyajima, Ruth Oliver, Laura J. Pollock, Lauren Shrack, Scott Yanco, Oisin Mac Aodha, Sara Beery
   journal: Unknown venue
@@ -140,35 +146,55 @@
   journal: arXiv.org
   year: 2025
   url: https://doi.org/10.48550/arxiv.2510.24884
-  themes: []
+  themes:
+  - Datasets & Benchmarks
+  - Interpretable & Reliable AI
+  - Data-Limited Learning
   doi: 10.48550/arxiv.2510.24884
-  suggested_themes: []
+  suggested_themes:
+  - Datasets & Benchmarks
+  - Interpretable & Reliable AI
+  - Data-Limited Learning
 - title: 'ReefNet: A Large scale, Taxonomically Enriched Dataset and Benchmark for Hard Coral Classification'
   authors: Yahia Battach, Abdulwahab Felemban, F. Khan, Yousef A. Radwan, Xiang Li, Fabio Marchese, Sara Beery, Burton H. Jones, F. Benzoni, Mohamed Elhoseiny
   journal: arXiv.org
   year: 2025
   url: https://doi.org/10.48550/arxiv.2510.16822
-  themes:
-  - Datasets & Benchmarks
+  themes: []
   doi: 10.48550/arxiv.2510.16822
-  suggested_themes:
-  - Datasets & Benchmarks
+  suggested_themes: []
 - title: 'Essential tools but overlooked bias: Artificial intelligence and citizen science classification affect camera trap data'
   authors: Simone Santoro, Santiago Gutiérrez-Zapata, Javier Calzada, Nuria Selva, Diego Marín‐Santos, Sara Beery, K. Brandis, Iñaki Fernández de Viana, P. Meek, A. Mortelliti, E. Revilla, Jon Paul Rodríguez, Lenka Straková, S. Tenan, Manuel Emilio Gegúndez
   journal: Methods in Ecology and Evolution
   year: 2025
   url: https://doi.org/10.1111/2041-210x.70132
-  themes: []
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Interpretable & Reliable AI
   doi: 10.1111/2041-210x.70132
-  suggested_themes: []
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Interpretable & Reliable AI
 - title: New frontiers in artificial intelligence for biodiversity research and conservation with multimodal language models
   authors: Zhongqi Miao, Yuanhan Zhang, Zalan Fabian, Andres Hernandez Celis, Sara Beery, Chunyuan Li, Ziwei Liu, Amrita Gupta, Md Nasir, Wanhua Li, Jason Holmberg, Meredith S. Palmer, Kaitlyn M Gaynor, Pablo Arbeláez, Pengce Wang, R. Dodhia, J. Ferres
   journal: Methods in Ecology and Evolution
   year: 2025
   url: https://doi.org/10.1111/2041-210x.70120
-  themes: []
+  themes:
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Multimodal Modeling
+  - Interpretable & Reliable AI
   doi: 10.1111/2041-210x.70120
-  suggested_themes: []
+  suggested_themes:
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Multimodal Modeling
+  - Interpretable & Reliable AI
 - title: Consensus-Driven Active Model Selection
   authors: J. Kay, Grant Van Horn, Subhransu Maji, Daniel Sheldon, Sara Beery
   journal: arXiv.org
@@ -182,9 +208,11 @@
   journal: Trends in Ecology & Evolution
   year: 2025
   url: https://doi.org/10.1016/j.tree.2025.04.010
-  themes: []
+  themes:
+  - Biodiversity Monitoring
   doi: 10.1016/j.tree.2025.04.010
-  suggested_themes: []
+  suggested_themes:
+  - Biodiversity Monitoring
 - title: The impact of strong activity disruption on building energetics
   authors: Yu-Hsuan Hsu, Sara Beery, Christopher P. Kempes, Mingzhen Lu, Serguei Saavedra
   journal: Unknown venue
@@ -197,9 +225,17 @@
   journal: arXiv.org
   year: 2025
   url: https://doi.org/10.48550/arxiv.2504.16277
-  themes: []
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Data-Limited Learning
   doi: 10.48550/arxiv.2504.16277
-  suggested_themes: []
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Data-Limited Learning
 - title: Conservation changed but not divided.
   authors: Sam A. Reynolds, Sara Beery, N. Burgess, Mark A Burgman, S. Butchart, S. J. Cooke, David A. Coomes, F. Danielsen, Enrico Di Minin, A. P. Durán, A. Hinsley, S. Jaffer, Julia P. G. Jones, Binbin V. Li, Anil Madhavapeddy, Lloyd S Peck, N. Pettorelli, Jon Paul Rodríguez, William J. Sutherland
   journal: Trends in Ecology & Evolution
@@ -213,9 +249,15 @@
   journal: arXiv.org
   year: 2025
   url: https://doi.org/10.48550/arxiv.2503.22881
-  themes: []
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Interpretable & Reliable AI
   doi: 10.48550/arxiv.2503.22881
-  suggested_themes: []
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Interpretable & Reliable AI
 - title: 'Open-Insect: Benchmarking Open-Set Recognition of Novel Species in Biodiversity Monitoring'
   authors: Yuyang Chen, Nico Lang, B. Schmidt, Aditya Jain, Yves Basset, Sara Beery, Maxim Larriv'ee, David Rolnick
   journal: Unknown venue
@@ -228,9 +270,15 @@
   journal: Nature Reviews Biodiversity
   year: 2025
   url: https://doi.org/10.1038/s44358-025-00022-3
-  themes: []
+  themes:
+  - Computer Vision
+  - Biodiversity Monitoring
+  - Environmental Sensing
   doi: 10.1038/s44358-025-00022-3
-  suggested_themes: []
+  suggested_themes:
+  - Computer Vision
+  - Biodiversity Monitoring
+  - Environmental Sensing
 - title: Counting Fish with Temporal Representations of Sonar Video
   authors: Kai Van Brunt, J. Kay, T. Haucke, Pietro Perona, Grant Van Horn, Sara Beery
   journal: arXiv.org
