@@ -10,6 +10,11 @@
 
 # Make sure to check how it looks using `jekyll serve`
 
+- title: Teach a Molmo2Fish
+  description: Towards interactive fish tracking with natural language guidance
+  image: https://drive.google.com/thumbnail?id=1isAWId-i6bpnYHfcszOeTYJnhy791rwE&sz=w1600
+  link: https://arxiv.org/abs/2608.18602
+  date: '2026-08-19'
 - title: Seeing Through the PRISM
   description: Controllable & Compositional Image Restoration for Science
   image: https://drive.google.com/thumbnail?id=1-grKKISFdNhU3_yok6Je2B5PG5wmswy8&sz=w1600
@@ -35,6 +40,11 @@
   image: https://drive.google.com/thumbnail?id=1e_TmKSOo-dyyyUdIqlUiRQqYMQUNCi94&sz=w1600
   link: https://arxiv.org/abs/2403.12029
   date: '2025-03-24'
+- title: EchoCount
+  description: Counting Fish with Temporal Representations of Sonar Video
+  image: https://drive.google.com/thumbnail?id=1k3CPBP1FBUuKkvLx0ay3j0iVc_H9YiL6&sz=w1600
+  link: https://arxiv.org/abs/2502.05129v1
+  date: '2025-02-07'
 - title: Personalized Representation from Personalized Generation
   description: Learning personalized visual representations from a few real images using synthetic data
   image: https://drive.google.com/thumbnail?id=1SPj45yHpuACss-6tUks6XP_KBMpV0uL8&sz=w1600
