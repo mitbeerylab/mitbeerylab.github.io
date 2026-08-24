@@ -42,9 +42,19 @@
   journal: bioRxiv
   year: 2026
   url: https://doi.org/10.1101/2025.09.06.674602
-  themes: []
+  themes:
+  - Computer Vision
+  - Biodiversity Monitoring
+  - Environmental Sensing
+  - Multimodal Modeling
+  - Interpretable & Reliable AI
   doi: 10.1101/2025.09.06.674602
-  suggested_themes: []
+  suggested_themes:
+  - Computer Vision
+  - Biodiversity Monitoring
+  - Environmental Sensing
+  - Multimodal Modeling
+  - Interpretable & Reliable AI
 - title: 'A Critical Look at Targeted Instruction Selection: Disentangling What Matters (and What Doesn''t)'
   authors: Nihal V. Nayak, Paula Rodriguez-Diaz, Neha Hulkund, Sara Beery, David Alvarez-Melis
   journal: Unknown venue
@@ -57,9 +67,17 @@
   journal: Remote Sensing in Ecology and Conservation
   year: 2026
   url: https://doi.org/10.1002/rse2.70055
-  themes: []
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Interpretable & Reliable AI
   doi: 10.1002/rse2.70055
-  suggested_themes: []
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Interpretable & Reliable AI
 - title: 'Towards ‘digital ecology’: Advances in integrating artificial intelligence from data generation to ecological insight'
   authors: D. Tuia, Sara Beery, Blair R. Costelloe, Ruth Y. Oliver, Nicolas Lecomte
   journal: Methods in Ecology and Evolution
@@ -73,9 +91,19 @@
   journal: arXiv.org
   year: 2026
   url: https://doi.org/10.48550/arxiv.2601.22917
-  themes: []
+  themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Scientific Workflows
+  - Interpretable & Reliable AI
   doi: 10.48550/arxiv.2601.22917
-  suggested_themes: []
+  suggested_themes:
+  - Computer Vision
+  - Datasets & Benchmarks
+  - Biodiversity Monitoring
+  - Scientific Workflows
+  - Interpretable & Reliable AI
 - title: 'Finer-Personalization Rank: Fine-Grained Retrieval Examines Identity Preservation for Personalized Generation'
   authors: Connor Kilrain, David E. Carlyn, Julia Chae, Sara Beery, Wei-Lun Chao, Jianyang Gu
   journal: arXiv.org
