@@ -370,8 +370,6 @@ def build_entry(row: Dict[str, Any], existing_entry: Optional[Dict[str, Any]]) -
     missing_fields = []
     if not title:
         missing_fields.append("Title")
-    if not image_raw:
-        missing_fields.append("Project Logo (square image)")
     if not description:
         missing_fields.append("Description")
     if not publication_date_raw:
@@ -383,17 +381,16 @@ def build_entry(row: Dict[str, Any], existing_entry: Optional[Dict[str, Any]]) -
 
     publication_date = parse_date_value(publication_date_raw)
     image_url = normalize_image_url(image_raw)
-    if not image_url:
-        raise ValueError("Project Logo (square image) must be a valid URL.")
 
     entry: Dict[str, Any] = {
         "title": title,
-        "image": image_url,
         "description": description,
         "themes": normalize_themes(themes_raw),
         "publication_date": publication_date.isoformat(),
         "year": publication_date.year,
     }
+    if image_url:
+        entry["image"] = image_url
 
     links = build_links(row)
     if links:
