@@ -91,7 +91,7 @@ permalink: /people
 {% endfor %}
 
 ---
-<h2 style="padding: 20px 0 10px">Masters & Visiting Students</h2>
+<!-- <h2 style="padding: 20px 0 10px">Masters & Visiting Students</h2>
 <ul class="space-y-2" style="list-style: none; padding: 0;">
 {% for member in site.data.msvisit %}
   <li style="margin-bottom: 8px;">
@@ -99,7 +99,7 @@ permalink: /people
     {% if member.info %}<br><span style="color: #666; font-size: 0.9em;">{{ member.info }}</span>{% endif %}
   </li>
 {% endfor %}
-</ul>
+</ul> -->
 
 ---
 <h2 style="padding: 20px 0 10px">Undergraduates</h2>
