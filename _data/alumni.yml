@@ -1,9 +1,24 @@
+- name: Lauren Gillespie
+  previous: MIT METEOR Postdoctoral Associate
+  current: Assistant Professor at University of Michigan, Ann Arbor
+- name: Lukas Picek
+  previous: Fulbright Visiting Scholar
+  current: Principle Investigator at University of West Bohemia, Pilsen
+- name: Kai Van Brunt
+  previous: Undergraduate and Postbaccalaurate Researcher
+  current: Earth Species Project
+- name: Ethan Lin
+  previous: Summer 2026 Visiting Student
+  current: PhD Student at Caltech
 - name: Andrew Zabelo
   previous: Summer 2026 Visiting Student
   current: Jane Street
 - name: Edward Vendrow
   previous: PhD Student
   current: OpenAI
+- name: Quinn Perian
+  previous: Masters Student
+  current: Cadence
 - name: Wendy Cao
   previous: Undergraduate
 - name: Tian Xie
@@ -23,4 +38,3 @@
   previous: Undergraduate
 - name: Avi Sundaresan
   previous: Undergraduate at Caltech
-  current: 

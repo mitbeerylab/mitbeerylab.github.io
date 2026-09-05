@@ -1,14 +1,3 @@
-- name: Lauren Gillespie
-  photo: Lauren.jpg
-  info: Postdoc
-  website: https://gillespl.com/
-  twitter: https://x.com/leg2015
-  google_scholar: https://scholar.google.com/citations?user=zrVz47MAAAAJ&hl=en
-  description: >
-    Lauren is an MIT METEOR postdoctoral associate advised by Profs. Sara Beery and Sherrie Wang (LIDS + MechE). 
-    She will be joining the University of Michigan's School for Environment and Sustainability in Fall of 2026. 
-    Her research focuses on developing AI-integrated approaches for monitoring ecosystems at scale.
-
 - name: Shir Bar
   photo: Shir.jpg
   info: Postdoc
@@ -19,20 +8,6 @@
     Shir is a postdoctoral fellow supported by the VATAT Marine Sciences Fellowship. 
     She works at the interface of AI and ecology, studying how expert knowledge can be used more efficiently to build ecological datasets, 
     especially for rare and hard-to-observe phenomena.
-
-- name: Lukas Picek
-  photo: Lukas.jpg
-  info: Visiting Scholar
-  linkedin: https://www.linkedin.com/in/
-  google_scholar: https://scholar.google.com/citations?user=SBifPtYAAAAJ&hl=cs&oi=ao
-  website: https://picekl.github.io/research-web/
-  github: https://github.com/picekl
-  kaggle: https://www.kaggle.com/picekl
-  description: >
-    Lukas is a Fulbright Visiting Scholar at MIT CSAIL. 
-    He builds computer vision and machine learning systems for biodiversity monitoring, 
-    individual identification of animals, species recognition, species distribution modeling and other 
-    real-world problems where reliable AI has to work alongside domain experts.
 
 - name: Jonathan Sauder
   photo: JonathanSauder.png
@@ -51,3 +26,39 @@
   linkedin: https://www.linkedin.com/in/burakekim
   description: >
     Burak is a postdoctoral associate specializing in the design and deployment of trustworthy, robust machine learning methods for climate, sustainability, and ecology. His work focuses on building diagnostic tools for domain shifts in large-scale deployments and driving scientific discovery to uncover novel ecological insights.
+
+- name: Sam Lapp
+  photo: sam_lapp.jpg
+  info: Postdoc
+  website: https://samlapp.com 
+  google_scholar: https://scholar.google.com/citations?user=X5ubHcoAAAAJ&hl=en&oi=ao
+  github: https://github.com/sammlapp
+  description: >
+    Sam is a postdoctoral research fellow at ESIIL, CU Boulder, where he is co-advised by Dr. Esther Rolf and Dr. Sara Beery. His current research projects focus on training machine learning models to extract rich insights from airborne LiDAR, providing user-friendly tools for analyzing passive acoustic monitoring datasets, and developing automated methods for individual identification of birds by their vocal signatures. He leads the development of Dipper, a desktop tool for passive acoustic monitoring analysis, and OpenSoundscape, an open-source Python package for bioacoustics analysis. He works closely with ecologists and conservation practitioners to apply these approaches to real-world data, enabling large-scale investigation of ecological processes and supporting conservation decision-making.
+
+
+
+# - name: Lauren Gillespie
+#   photo: Lauren.jpg
+#   info: Postdoc
+#   website: https://gillespl.com/
+#   twitter: https://x.com/leg2015
+#   google_scholar: https://scholar.google.com/citations?user=zrVz47MAAAAJ&hl=en
+#   description: >
+#     Lauren is an MIT METEOR postdoctoral associate advised by Profs. Sara Beery and Sherrie Wang (LIDS + MechE). 
+#     She will be joining the University of Michigan's School for Environment and Sustainability in Fall of 2026. 
+#     Her research focuses on developing AI-integrated approaches for monitoring ecosystems at scale.
+
+# - name: Lukas Picek
+#   photo: Lukas.jpg
+#   info: Visiting Scholar
+#   linkedin: https://www.linkedin.com/in/
+#   google_scholar: https://scholar.google.com/citations?user=SBifPtYAAAAJ&hl=cs&oi=ao
+#   website: https://picekl.github.io/research-web/
+#   github: https://github.com/picekl
+#   kaggle: https://www.kaggle.com/picekl
+#   description: >
+#     Lukas is a Fulbright Visiting Scholar at MIT CSAIL. 
+#     He builds computer vision and machine learning systems for biodiversity monitoring, 
+#     individual identification of animals, species recognition, species distribution modeling and other 
+#     real-world problems where reliable AI has to work alongside domain experts.
