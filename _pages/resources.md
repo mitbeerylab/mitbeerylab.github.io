@@ -1,12 +1,12 @@
 ---
-title: "BeeryLab • Outreach"
+title: "BeeryLab • Talks and Teaching"
 layout: textlay
-excerpt: "Outreach."
+excerpt: "Talks and Teaching."
 sitemap: false
-permalink: /outreach
+permalink: /talksteaching
 ---
 
-<div id="outreach-page" markdown="0">
+<div id="talksteaching-page" markdown="0">
 <style>
   .badge-pill-custom {
       margin-right: 5px;
@@ -42,7 +42,7 @@ permalink: /outreach
   }
 </style>
 
-<h1>Outreach</h1>
+<h1>Talks and Teaching</h1>
 
 <p>We share our work through invited talks, courses, workshops, and community-centered teaching.</p>
 
