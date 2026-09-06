@@ -6,7 +6,7 @@ sitemap: false
 permalink: /people
 ---
 
-<!-- # People -->
+# People
 
 {% for photo in site.data.photos %}
 <div class="col-sm-12 clearfix" style="text-align: center; ">
