@@ -6,9 +6,8 @@ sitemap: false
 permalink: /people
 ---
 
-# People
+<!-- # People -->
 
-<!-- TODO: change to album view once we have >1 photo -->
 {% for photo in site.data.photos %}
 <div class="col-sm-12 clearfix" style="text-align: center; ">
 <div style="display: flex; justify-content: center;">
@@ -90,8 +89,8 @@ permalink: /people
 </div>
 {% endfor %}
 
----
-<!-- <h2 style="padding: 20px 0 10px">Masters & Visiting Students</h2>
+<!-- ---
+<h2 style="padding: 20px 0 10px">Masters & Visiting Students</h2>
 <ul class="space-y-2" style="list-style: none; padding: 0;">
 {% for member in site.data.msvisit %}
   <li style="margin-bottom: 8px;">
@@ -99,9 +98,9 @@ permalink: /people
     {% if member.info %}<br><span style="color: #666; font-size: 0.9em;">{{ member.info }}</span>{% endif %}
   </li>
 {% endfor %}
-</ul> -->
+</ul>
 
----
+--- -->
 <h2 style="padding: 20px 0 10px">Undergraduates</h2>
 <ul style="list-style: none; padding: 0;">
 {% for member in site.data.undergrads %}
