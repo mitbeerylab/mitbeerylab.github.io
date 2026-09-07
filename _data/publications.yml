@@ -35,20 +35,8 @@
   journal: International Conference on Learning Representations
   year: 2026
   url: https://www.semanticscholar.org/paper/9febdeafc2f5519c433c86795776ff40c6886c5a
-  themes:
-  - Computer Vision
-  - Datasets & Benchmarks
-  - Biodiversity Monitoring
-  - Environmental Sensing
-  - Interpretable & Reliable AI
-  - Data-Limited Learning
-  suggested_themes:
-  - Computer Vision
-  - Datasets & Benchmarks
-  - Biodiversity Monitoring
-  - Environmental Sensing
-  - Interpretable & Reliable AI
-  - Data-Limited Learning
+  themes: []
+  suggested_themes: []
 - title: 'Seeing Above and Below the Canopy: Modeling and Interpreting Species Occupancy with Multimodal Habitat Representations'
   authors: T. Haucke, Lauren Harrell, Yunyi Shen, L. Klein, D. Rolnick, Lauren E. Gillespie, Sara Beery
   journal: bioRxiv
@@ -62,28 +50,16 @@
   journal: Unknown venue
   year: 2026
   url: https://www.semanticscholar.org/paper/1c893e09169df0f0853ecf03aa016be9ce13997a
-  themes:
-  - Datasets & Benchmarks
-  - Data-Limited Learning
-  suggested_themes:
-  - Datasets & Benchmarks
-  - Data-Limited Learning
+  themes: []
+  suggested_themes: []
 - title: 'From snapshots to continuous estimates: Augmenting citizen science with computer vision for fish monitoring'
   authors: Zhongqi Chen, T. Haucke, Sara Beery, Keven Bennett, Austin Powell, Lydia Zuehsow, Robert E. Vincent, Linda A. Deegan
   journal: Remote Sensing in Ecology and Conservation
   year: 2026
   url: https://doi.org/10.1002/rse2.70055
-  themes:
-  - Computer Vision
-  - Datasets & Benchmarks
-  - Biodiversity Monitoring
-  - Interpretable & Reliable AI
+  themes: []
   doi: 10.1002/rse2.70055
-  suggested_themes:
-  - Computer Vision
-  - Datasets & Benchmarks
-  - Biodiversity Monitoring
-  - Interpretable & Reliable AI
+  suggested_themes: []
 - title: 'Towards ‘digital ecology’: Advances in integrating artificial intelligence from data generation to ecological insight'
   authors: D. Tuia, Sara Beery, Blair R. Costelloe, Ruth Y. Oliver, Nicolas Lecomte
   journal: Methods in Ecology and Evolution
@@ -97,31 +73,17 @@
   journal: arXiv.org
   year: 2026
   url: https://doi.org/10.48550/arxiv.2601.22917
-  themes:
-  - Computer Vision
-  - Datasets & Benchmarks
-  - Biodiversity Monitoring
-  - Scientific Workflows
-  - Interpretable & Reliable AI
+  themes: []
   doi: 10.48550/arxiv.2601.22917
-  suggested_themes:
-  - Computer Vision
-  - Datasets & Benchmarks
-  - Biodiversity Monitoring
-  - Scientific Workflows
-  - Interpretable & Reliable AI
+  suggested_themes: []
 - title: 'Finer-Personalization Rank: Fine-Grained Retrieval Examines Identity Preservation for Personalized Generation'
   authors: Connor Kilrain, David E. Carlyn, Julia Chae, Sara Beery, Wei-Lun Chao, Jianyang Gu
   journal: arXiv.org
   year: 2025
   url: https://doi.org/10.48550/arxiv.2512.19026
-  themes:
-  - Computer Vision
-  - Datasets & Benchmarks
+  themes: []
   doi: 10.48550/arxiv.2512.19026
-  suggested_themes:
-  - Computer Vision
-  - Datasets & Benchmarks
+  suggested_themes: []
 - title: 'INQUIRE-Search: Interactive Discovery in Large-Scale Biodiversity Databases'
   authors: Edward Vendrow, Julia Chae, Rupa Kurinchi-Vendhan, Isaac Eckert, Jazlynn Hall, Marta Jarzyna, Reymond J. Miyajima, Ruth Oliver, Laura J. Pollock, Lauren Shrack, Scott Yanco, Oisin Mac Aodha, Sara Beery
   journal: Unknown venue
