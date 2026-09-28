@@ -6,14 +6,14 @@ sitemap: false
 permalink: /join-us
 ---
 
-# Join the AI for Conservation community
+# Join the AI for Conservation Community
 ## AI4Conservation Slack
 
 In Fall of 2019 Sara started a Slack channel on AI for Conservation, to provide a shared, interdisciplinary space for researchers who work across the fields of computer vision, machine learning, and AI for conservation and sustainability applications to share opportunities, discuss best practices, and find collaborators. Now our community is over 3500 strong, with researchers from all over the globe. If you'd like to join us, just email [aiforconservation@gmail.com](mailto:aiforconservation@gmail.com).
 
 See the AI4Conservation Slack Archive [here](https://beerylab.csail.mit.edu/AIforConservationArchive/search).
 
-# Join the BeeryLab at MIT
+## Join the BeeryLab at MIT
 
 If you are interested in any position with the group (Postdoc, PhD, MEng, UROP, Visitor), instead of emailing me please fill out the interest survey below so I can better organize my responses. I am unlikely to respond to individual emails.
 
