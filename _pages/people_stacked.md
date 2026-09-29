@@ -117,7 +117,7 @@ permalink: /people
 {% for member in site.data.alumni %}
   <li style="margin-bottom: 8px;">
     {% if member.link %}
-      <a href="{{ member.link }}" style="font-size: 1.1em;">{{ member.name }}</a>
+      <a href="{{ member.link | escape }}" style="font-size: 1.1em; color: inherit; text-decoration: underline; text-decoration-color: #bbb; text-underline-offset: 0.15em;">{{ member.name }}</a>
     {% else %}
       <span style="font-size: 1.1em;">{{ member.name }}</span>
     {% endif %}
