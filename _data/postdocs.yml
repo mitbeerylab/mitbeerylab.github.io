@@ -36,6 +36,22 @@
   description: >
     Sam is a postdoctoral research fellow at ESIIL, CU Boulder, where he is co-advised by Dr. Esther Rolf and Dr. Sara Beery. His current research projects focus on training machine learning models to extract rich insights from airborne LiDAR, providing user-friendly tools for analyzing passive acoustic monitoring datasets, and developing automated methods for individual identification of birds by their vocal signatures. He leads the development of Dipper, a desktop tool for passive acoustic monitoring analysis, and OpenSoundscape, an open-source Python package for bioacoustics analysis. He works closely with ecologists and conservation practitioners to apply these approaches to real-world data, enabling large-scale investigation of ecological processes and supporting conservation decision-making.
 
+- name: Josh Veitch-Michaelis
+  photo: josh.png
+  info: Postdoc
+  website: https://josh.veitchmichael.is/
+  google_scholar: https://scholar.google.ch/citations?user=Wb1ZLRAAAAAJ&hl=en
+  github: https://github.com/jveitchmichaelis/
+  description: >
+    Josh is a visiting postdoc at MIT CSAIL and a member of Ethan White and Morgan Ernest's interdisciplinary Weecology group at the University of Florida. His work focuses on applied machine learning for ecology and conservation, particularly detection and classification pipelines for multi-modal aerial imaging surveys. He is currently exploring how synthetic training data and generative AI can assist with long-tail classification problems.
+
+- name: Shubhi Sharma
+  photo: shubhi.jpg
+  info: Postdoc
+  google_scholar: https://scholar.google.com/citations?user=JNkowVIAAAAJ&hl=en
+  github: https://github.com/shubhisharma0
+  description: >
+    Shubhi Sharma is a Tayebati postdoctoral fellow at MIT CSAIL. Her research sits at the intersection of machine learning, ecology, and evolution, with a focus learning from incomplete, noisy, and biased observations. Shubhi holds a PhD from Yale University, where she developed eco-evolutionary methods to map species distributions where data are scarce. She is currently working on how ecologically grounded architectures can make deep learning models more biologically realistic.
 
 
 # - name: Lauren Gillespie
