@@ -1,0 +1,19 @@
+# Lab gallery photos, shown on /gallery in the order listed here.
+#
+# To add a photo: put the full-size original in _gallery_originals/, run
+# scripts/optimize_gallery_images.sh, then list the generated .jpg below.
+#
+# - image: lab_retreat_2026.jpg      # filename in images/gallerypic/
+#   alt: Lab members hiking          # optional description for screen readers
+
+- image: group.jpg
+- image: whiteboard.jpg
+- image: juggle.jpg
+- image: burak_antoine_juggle_telescope.jpg
+- image: antoine_zebra.jpg
+- image: office_rupa_jon.jpg
+- image: postdoc_office.jpg
+- image: timm.jpg
+- image: 2026retreat.jpg
+- image: 2024hike.jpg
+- image: 2024lake.jpg
