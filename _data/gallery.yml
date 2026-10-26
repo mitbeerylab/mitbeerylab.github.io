@@ -7,13 +7,13 @@
 #   alt: Lab members hiking          # optional description for screen readers
 
 - image: group.jpg
-- image: whiteboard.jpg
-- image: juggle.jpg
-- image: burak_antoine_juggle_telescope.jpg
-- image: antoine_zebra.jpg
 - image: office_rupa_jon.jpg
 - image: postdoc_office.jpg
+- image: whiteboard.jpg
+- image: antoine_zebra.jpg
 - image: timm.jpg
+- image: juggle.jpg
+- image: burak_antoine_juggle_telescope.jpg
 - image: 2026retreat.jpg
 - image: 2024hike.jpg
 - image: 2024lake.jpg
