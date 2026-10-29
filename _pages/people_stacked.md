@@ -89,7 +89,7 @@ permalink: /people
 </div>
 {% endfor %}
 
-<!-- ---
+
 <h2 style="padding: 20px 0 10px">Masters & Visiting Students</h2>
 <ul class="space-y-2" style="list-style: none; padding: 0;">
 {% for member in site.data.msvisit %}
@@ -100,7 +100,7 @@ permalink: /people
 {% endfor %}
 </ul>
 
---- -->
+
 <h2 style="padding: 20px 0 10px">Undergraduates</h2>
 <ul style="list-style: none; padding: 0;">
 {% for member in site.data.undergrads %}
