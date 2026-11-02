@@ -35,6 +35,22 @@
     url: https://huggingface.co/datasets/tidalove/cfc-track-instruction
   - label: Paper
     url: https://arxiv.org/abs/2608.18602
+- title: ID-Sim
+  description: Humans have remarkable selective sensitivity to identities -- easily distinguishing between highly similar identities, even across significantly different contexts such as diverse viewpoints or lighting. Vision models have struggled to match this capability, and progress toward identity-focused tasks such as personalized image generation is slowed by a lack of identity-focused evaluation metrics. To help facilitate progress, we propose ID-Sim, a feed-forward metric designed to faithfully reflect human selective sensitivity. To build ID-Sim, we curate a high-quality training set of images spanning diverse real-world domains, augmented with generative synthetic data that provides controlled, fine-grained identity and contextual variations. We evaluate our metric on a new unified evaluation benchmark for assessing consistency with human annotations across identity-focused recognition, retrieval, and generative tasks.
+  themes:
+  - Computer Vision
+  publication_date: '2026-06-03'
+  year: 2026
+  image: https://drive.google.com/thumbnail?id=1DlNF37FZofqhkIDdnfMGVzsiV1jacRFH&sz=w400
+  links:
+  - label: Website
+    url: https://juliachae.github.io/id_sim/
+  - label: Code
+    url: https://github.com/JuliaChae/id_sim
+  - label: Data
+    url: https://huggingface.co/datasets/chaenayo/Subjects2k
+  - label: Paper
+    url: https://arxiv.org/abs/2604.05039
 - title: Seeing Through the PRISM
   description: PRISM is a controllable image restoration framework built for scientific and environmental imagery, where noise, blur, haze, weather, and other distortions often appear together. Instead of fixing one corruption at a time, PRISM learns to handle compound degradations jointly while still letting experts selectively remove only the artifacts they care about. The result is higher-fidelity restoration, stronger generalization to unseen distortion mixtures, and better downstream scientific performance across microscopy, ecology, remote sensing, and urban monitoring.
   themes:

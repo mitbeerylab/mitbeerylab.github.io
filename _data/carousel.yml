@@ -15,6 +15,11 @@
   image: https://drive.google.com/thumbnail?id=1isAWId-i6bpnYHfcszOeTYJnhy791rwE&sz=w1600
   link: https://arxiv.org/abs/2608.18602
   date: '2026-08-19'
+- title: ID-Sim
+  description: an instance identity-focused visual similarity metric that exhibits selective sensitivity
+  image: https://drive.google.com/thumbnail?id=1znZv7BsyZ8HVPr_Qd70PcE5RWIFIr9wN&sz=w1600
+  link: https://arxiv.org/abs/2604.05039
+  date: '2026-06-03'
 - title: Seeing Through the PRISM
   description: Controllable & Compositional Image Restoration for Science
   image: https://drive.google.com/thumbnail?id=1-grKKISFdNhU3_yok6Je2B5PG5wmswy8&sz=w1600
