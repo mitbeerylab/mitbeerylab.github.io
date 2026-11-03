@@ -101,7 +101,7 @@ permalink: /people
 </ul>
 
 
-<h2 style="padding: 20px 0 10px">Undergraduates</h2>
+<!-- <h2 style="padding: 20px 0 10px">Undergraduates</h2>
 <ul style="list-style: none; padding: 0;">
 {% for member in site.data.undergrads %}
   <li style="margin-bottom: 8px;">
@@ -109,7 +109,7 @@ permalink: /people
     {% if member.info %}<br><span style="color: #666; font-size: 0.9em;">{{ member.info }}</span>{% endif %}
   </li>
 {% endfor %}
-</ul>
+</ul> -->
 
 ---
 <h2 style="padding: 20px 0 10px">Lab Alumni</h2>
